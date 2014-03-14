@@ -1,0 +1,181 @@
+@import 'styl/font.styl'
+@import 'styl/normalize.styl'
+@import 'styl/header.styl'
+@import 'styl/footer.styl'
+
+label
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0)
+
+#inicio_finanzas
+    padding-bottom 70px
+
+    .fecha-hoy
+        font-size 25px
+        line-height 30px
+        padding: 0
+        margin 0
+        color #444
+        font-style italic
+        font-weight bold
+        text-align center
+
+    .imagen-head
+        max-height none
+
+        .balance
+            color: #fff;
+            font-size: 18px;
+            line-height: 22px;
+            padding: 30px;
+            text-align: center;
+            font-style: italic;
+
+            p
+                padding: 8px 0
+
+        label
+            display: block;
+            text-shadow: 0 0 4px #ccc;
+            color: #444
+
+        p
+            color: #000;
+            margin: 0;
+            padding: 5px 0;
+            font-size: 45px;
+            line-height: 40px;
+            font-weight: bold;
+
+
+    .subtitulo
+        font-size: 20px;
+        line-height: 22px;
+        color: #888;
+        text-align: center;
+        font-weight: bold;
+        font-style: italic;
+        padding 20px 0 0 0
+        margin 0
+
+        .meses
+            background: #1a3c8f;
+            padding: 5px 20px;
+            border 1px solid #12317f
+            border-radius 2px
+            color #fff
+            font-size: 20px;
+            line-height: 20px;
+            font-style: italic;
+            height 36px
+            min-width 200px
+
+    .entradas-fechas
+        padding: 0;
+
+        .titulo-bg
+            margin 0
+
+        label
+            font-size: 16px;
+            line-height: 16px;
+            color: #888;
+
+        div.ui-input-text
+            padding: 5px 0;
+            margin: 0;
+            margin-right: 10px;
+            display: inline-block;
+
+            input
+                width: 100%;
+                color #eee
+                background #444
+                border 1px solid #333
+                border-bottom-width 2px
+                border-radius 4px
+                padding 5px 0
+                font-size 16px
+
+
+    .entrada-finanzas
+        padding: 10px;
+        border-bottom: 1px solid #B1D4F5;
+        background: #DEEEFC;
+        .fecha
+            display: block;
+            font-size: 14px;
+            line-height: 14px;
+            word-wrap: break-word;
+        .valor
+            display: block;
+            font-size: 25px;
+            line-height: 30px;
+            font-weight: bold;
+            font-style: italic;
+            color: #1A3C8F;
+
+    #entradas-ingresos
+        .entrada-finanzas
+            border-right: 1px solid #bbb;
+
+    #entradas-egresos
+        .entrada-finanzas
+            border-left: 1px solid #bbb;
+
+    .titulo-bg
+        background: #eee;
+        padding: 15px;
+        border: 1px solid #bbb;
+        border-width: 1px 0;
+        margin-top: 20px;
+        cursor pointer
+
+        label
+            font-style: italic;
+            font-size: 19px;
+            line-height: 19px;
+            font-weight: bold;
+            color: #888;
+            cursor pointer
+
+        button
+            float: right;
+            vertical-align: top;
+            margin: 0;
+            margin-top: -3px;
+            font-weight bold
+            font-size 20px
+            line-height 19px
+            background transparent
+            border 0
+            color #888
+
+    .titulo-bg:hover, .titulo-bg:active
+        background #f4f4f4
+
+    .btn-agregar-egreso
+        border-left 1px solid #bbb
+    .btn-agregar-ingreso
+        border-right 1px solid #bbb
+
+.ui-grid-a
+    overflow hidden
+
+.ui-grid-a .ui-block-a
+    clear: left;
+
+.ui-block-a, .ui-block-b
+    margin: 0;
+    padding: 0;
+    border: 0;
+    float: left;
+    min-height: 1px;
+    width 48%;
+
+    webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+
+.ui-block-b
+    float right

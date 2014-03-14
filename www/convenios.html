@@ -1,0 +1,199 @@
+<!DOCTYPE html> 
+<html>
+<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>jQuery Mobile: Theme Download</title>
+		<link rel="stylesheet" href="themes/fnatheme.min.css" />
+		<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+		<link rel="stylesheet" href="themes/jquery.mobile.structure-1.4.0.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/finanzas.css">
+        
+        <script type="text/javascript" src="cordova.js"></script>
+        
+		<script src="themes/jquery-1.10.2.min.js"></script>
+		<script type="text/javascript" src="js/scripts/general.js"></script>
+        
+        <script language="JavaScript" type="text/javascript" src="js/xpath.js"></script>
+		<script language="JavaScript" type="text/javascript" src="js/SpryData.js"></script>
+        <script language="javascript" type="text/javascript" src="js/funciones.js"></script>
+         <script language="JavaScript" type="text/javascript">
+
+
+<!--
+
+		var idEdu = localStorage.getItem("project_idEdu");
+		<!--alert(idEdu);-->
+		var idEduC = localStorage.getItem("project_idEduC");
+		<!--alert(idEduC);-->
+
+
+if(idEdu == null) {
+          var idEdu = ""
+        }
+if(idEduC == null) {
+          var idEduC = ""
+        }
+
+<!--
+var ds1 = new Spry.Data.XMLDataSet("http://servicedatosabiertoscolombia.cloudapp.net/v1/Fondo_Nacional_Ahorro/bdfnaeducacion?$format=xml", "feed/entry/content/m:properties"+idEdu+""+idEduC+"", {sortOnLoad: "d:universidad", sortOrderOnLoad: "ascending", distinctOnLoad: true, distinctFieldsOnLoad: ['d:universidad']});
+//-->
+<!--http://servicedatosabiertoscolombia.cloudapp.net/v1/Fondo_Nacional_Ahorro/bdfnaeducacion?$format=xml o js/bdfnaeducacion.xml-->
+var ds2 = new Spry.Data.XMLDataSet("http://servicedatosabiertoscolombia.cloudapp.net/v1/Fondo_Nacional_Ahorro/bdfnaeducacion?$format=xml", "feed/entry/content/m:properties"+idEduC+"");
+
+var ds3 = new Spry.Data.XMLDataSet("http://servicedatosabiertoscolombia.cloudapp.net/v1/Fondo_Nacional_Ahorro/bdfnaeducacion?$format=xml", "feed/entry/content/m:properties"+idEdu+"");
+</script>
+         <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,100,200,700,500' rel='stylesheet' type='text/css'>
+         
+<script type="text/javascript">
+$(document).ready(function() {
+    setTimeout(function() {
+        $(".cargaocultar").fadeOut(1100);
+    },1500);
+});
+</script>
+
+ 
+	</head>
+<body> 
+
+<div data-role="page" id="page">
+	<div class="header">
+		<a href="index.html" class="btn-left">Inicio</a>
+		<h1 role="heading" aria-level="1">Educación</h1>
+		<a href="javascript: Funciones.compartir('show')" class="btn-right tap-compartir">Compartir</a>
+	</div>
+    
+	<div data-role="content">	
+	<p>&nbsp;</p>
+    
+    <h2 class="fuente1">Convenios Educativos</h2>
+ 
+    <div spry:region="ds3">
+		<div spry:state="loading" align="center">
+					<img src="themes/images/loading.gif">
+                	<h3 class="fuente1">Cargando Universidades...</h3>
+		</div>
+		<div spry:state="error" align="center">
+        	<div class="cargaocultar" style="height:1000px"> </div>
+                	<h3 class="fuente1">No se obtuvieron datos, comprueba tu conexión a internet.		 					</h3>
+            	</div>
+		<div spry:state="ready"> 
+                <div spry:choose="spry:choose">
+                    <div spry:when="idEdu == ''">
+                          <h4 class="fuente1">Seleccionar Ciudad</h4>
+                                <a href="educacion.html" class="ui-btn ui-btn-icon-right ui-icon-search ui-color-bar" data-ajax="false">TODAS</a>
+                    </div>
+                    <div spry:default="">
+                          <h4 class="fuente1" >Seleccionar Ciudad</h4>
+                                <a href="educacion.html" class="ui-btn ui-btn-icon-right ui-icon-search ui-color-bar" data-ajax="false">{d:ciudadmunicipio}</a>
+                    </div>
+                </div>
+            </div>
+ 	</div>
+    
+    
+    
+    <div spry:region="ds2">
+        <div spry:state="loading"> </div>
+        <div spry:state="error"> </div>
+        <div spry:state="ready"> 
+                <div spry:choose="spry:choose">
+                    <div spry:when="idEduC == ''">
+                          <h4 class="fuente1">Seleccionar Programa Académico</h4>
+                                <a href="carreras.html" class="ui-btn ui-btn-icon-right ui-icon-search ui-color-bar" data-ajax="false">TODOS</a>
+                    </div>
+                    <div spry:default="">
+                          <h4 class="fuente1">Seleccionar Programa Académico</h4>
+                                <a href="carreras.html" class="ui-btn ui-btn-icon-right ui-icon-search ui-color-bar" data-ajax="false" style="white-space: normal">{d:programaacademico}</a>
+                    </div>
+                </div>
+             </div>
+ 	</div>
+    
+    
+    <div spry:region="ds1"> 
+                <div spry:state="loading" align="center"> </div>
+                <div spry:state="error" align="center"> </div>
+                <div spry:state="ready">
+                        <div spry:repeat="ds1">     
+                         <a href="#" data-filter="[d:universidad = '{d:universidad}']"  onclick="mostrarUniversidadUnica(this);return false;">
+                         <table class="full-width text-center selecciongris" width="100%">
+                           <tbody>
+                                <tr>
+                                <td width="30%"><img src="http://www.fna.gov.co/wps/wcm/connect/9041049c-4cdc-4483-8f48-64a6c0808175/ASCOFAME.gif?MOD=AJPERES&CACHEID=9041049c-4cdc-4483-8f48-64a6c0808175" alt="{logo}" width="120" height="120"/></td>
+                                <td width="70%"><h4 class="fuente1">{d:universidad}</h4></td>
+                                </tr>
+                            </tbody>
+                        </table></a></div>
+                        
+                    
+                    <h4><ul  class="panel grey">
+  					<blockquote>
+                    <li class="bullet-item"><h4 class="fuente1" align="center" style="color:#333">No se encontraron más resultados con estas características. Prueba seleccionando otra "Ciudad" y/o "Programa Académico"</h4></li>				 					</blockquote>
+                    </ul></h4>
+                    
+                <div>
+			</div></div>
+    </div>
+    
+    
+	
+			
+	</div>
+	
+    
+</div>
+	<div class="footer">
+		<div>
+			<a href="__mapas.html" id="flink-puntos" class="ui-link">
+			<span></span>
+			</a>
+			<a href="__portafolio.html" id="flink-portafolio" class="ui-link">
+				<span></span>
+			</a>
+			<a href="__asesoria.html" id="flink-asesoria" class="ui-link">
+				<span></span>
+			</a>
+			<a href="__finanzas.html" id="flink-finanzas" class="external ui-link" >
+				<span></span>
+			</a>
+			</a>
+			<a href="educacion.html" id="flink-educacion" class="ui-link" >
+				<span></span>
+			</a>
+			</a>
+			<a href="vivienda.html" id="flink-vivienda" class="ui-link" >
+				<span></span>
+			</a>
+		</div>
+	</div>
+	<div id="window_compartir" class="window">
+		<div class="window-container">
+			<div id="compartir">
+				<div class="superior">
+					<h1 class="ui-header ui-title">FNA Social</h1>
+					<a href="javascript: Funciones.compartir('hide')" class="btn-right">Cerrar</a>
+				</div>
+				<div class="ui-content ui-body-b">
+					<div class="window-content">
+						<button class="btn-blue btn-block btn-google" onclick="openLinkInBrowser('https://plus.google.com/share?url=http://fna.gov.co');">
+							<img src="img/icon_google.png" alt="Google+"><span>Google+</span>
+						</button>
+						<button class="btn-blue btn-block btn-facebook" onclick="openLinkInBrowser('https://www.facebook.com/sharer/sharer.php?u=http://fna.gov.co');">
+							<img src="img/icon_facebook.png" alt="Facebook"><span>Facebook</span>
+						</button>
+						<button class="btn-blue btn-block btn-twitter" onclick="openLinkInBrowser('https://twitter.com/intent/tweet?text=Visita%20fna.gov.co');">
+							<img src="img/icon_twitter.png" alt="Twitter"><span>Twitter</span>
+						</button>
+						<button class="btn-blue btn-block btn-linkedin" onclick="openLinkInBrowser('http://www.linkedin.com/shareArticle?mini=true&url=http://fna.gov.co');">
+							<img src="img/icon_linkedin.png" alt="Linkedin"><span>Linkedin</span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

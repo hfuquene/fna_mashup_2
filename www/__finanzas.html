@@ -1,0 +1,305 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height" />
+	<title>Mis Finanzas</title>
+	<link rel="stylesheet" type="text/css" href="css/finanzas.css">
+
+   	<script type="text/javascript" src="js/lib/jquery.js"></script>
+
+  	<script type="text/javascript" src="cordova.js"></script>
+
+<!--
+  	<script type="text/javascript" src="js/debug.js"></script>
+ -->
+
+	<script type="text/javascript" src="js/scripts/general.js"></script>
+	<script type="text/javascript" src="js/scripts/finanzas.js"></script>
+</head>
+<body page="finanzas" required-internet="0">
+	<div class="header">
+		<a href="index.html" class="btn-left">Inicio</a>
+
+		<h1 role="heading" aria-level="1">Mis Finanzas</h1>
+
+		<a href="javascript: Funciones.compartir('show')" class="btn-right tap-compartir">Compartir</a>
+	</div>
+
+	<!--
+	Si ahorro es positivo: Haz ahorrado en el periodo 50000 Puedes acercarte a una oficina fna para invertir tu ahorro.  Solicitar asesoría.
+	si no: Haz gastado más de lo que haz ganado -5000 Planea mejor tus gastos según tu presupuesto.
+	-->
+
+	<div class="wrapper_content" id="inicio_finanzas">
+
+
+     	<div class="imagen-head">
+	        <img src="img/finanzas_sin.jpg">
+
+            <h2 class="subtitulo">
+                <!--Periodo: -->
+                <select id="mes" class="meses" name="mes" onchange="RealizarLaConsulta()">
+                    <option value="01">Enero</option>
+                    <option value="02">Febrero</option>
+                    <option value="03">Marzo</option>
+                    <option value="04">Abril</option>
+                    <option value="05">Mayo</option>
+                    <option value="06">Junio</option>
+                    <option value="07">Julio</option>
+                    <option value="08">Agosto</option>
+                    <option value="09">Septiembre</option>
+                    <option value="10">Octubre</option>
+                    <option value="11">Noviembre</option>
+                    <option value="12">Diciembre</option>
+                </select>
+            </h2>
+
+	        <div class="balance">
+	          <label id="tit_ahorro">Ahorro en el periodo</label>
+	          <p id="sActual">0</p>
+			  <label id="pie_ahorro"></label>
+	         <!--<div>
+	          	<button class="btn-white" type="button" onclick="Insertar.ver_historia('show')">Ver histórico</button>
+	          </div>-->
+	        </div>
+     	</div>
+
+
+
+
+    	<div class="entradas-fechas">
+    	    <div class="ui-grid-a">
+    	        <div class="ui-block-a">
+    	          <div class="titulo-bg btn-agregar-ingreso" onclick="Insertar.agr_ingreso('show')">
+    	            <label>Ingresos</label>
+    	            <button type="button" >+</button>
+    	          </div>
+    	        </div>
+
+    	        <div class="ui-block-b">
+    	          <div class="titulo-bg btn-agregar-egreso" onclick="Insertar.agr_egreso('show')">
+    	            <label>Egresos</label>
+    	            <button type="button">+</button>
+    	          </div>
+    	        </div>
+    	    </div>
+
+    		<div class="ui-grid-a">
+    	        <div id="entradas-ingresos" class="ui-block-a">
+    	        </div>
+    	        <div  id="entradas-egresos" class="ui-block-b">
+    	        </div>
+    	    </div>
+        </div>
+
+
+	<div id="window_egreso" class="window">
+		<div class="window-container">
+		<div id="egreso">
+			<div class="superior">
+				<h1 class="ui-header ui-title">Agregar gasto</h1>
+				<a href="javascript: Insertar.agr_egreso('hide')" class="btn-right">Cerrar</a>
+			</div>
+			<div class="ui-content ui-body-b">
+				<div class="window-content">
+                    <p class="fecha-hoy">
+                        -- de --
+                    </p>
+					<div class="input_text">
+						<label for="montoEgr">Valor en pesos:</label>
+						<small>Sin puntos ni comas</small>
+						<input type="number" name="montoEgr" id="montoEgr" maxlength="9" placeholder="Escríbelo aquí" value=""  required>
+						<div class="line"></div>
+					</div>
+					<div class="input_text">
+						<label for="tipoEgr">Tipo:</label>
+						<select id="tipoEgr" name="tipoEgr">
+						  <option value="Hogar">Hogar</option>
+						  <option value="Transporte">Transporte</option>
+						  <option value="Alimentación">Alimentación</option>
+						  <option value="Educación">Educación</option>
+						  <option value="Vivienda">Vivienda</option>
+						  <option value="Vestuario">Vestuario</option>
+						  <option value="Entretenimiento">Entretenimiento</option>
+						  <option value="Otros">Otros</option>
+						</select>
+						<div class="line"></div>
+					</div>
+					<div class="input_text">
+						<label for="notaEgr">Nota:</label>
+						<small>Máximo 70 caractéres</small>
+						<input type="text" name="notaEgr" id="notaEgr" placeholder="Escríbelo aquí" value=""  maxlength="70"/>
+						<div class="line"></div>
+					</div>
+					<div class="btns-center">
+						<button onclick="listoAgregarEgreso()" class="btn-solicitar btn-blue">Guardar</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+
+
+	<div id="window_ingreso" class="window">
+		<div class="window-container">
+		<div id="ingreso">
+			<div class="superior">
+				<h1 class="ui-header ui-title">Agregar Ingreso</h1>
+				<a href="javascript: Insertar.agr_ingreso('hide')" class="btn-right">Cerrar</a>
+			</div>
+			<div class="ui-content ui-body-b">
+				<div class="window-content">
+                    <p class="fecha-hoy">
+                        -- de --
+                    </p>
+					<div class="input_text">
+						<label for="montoIng">Valor en pesos:</label>
+						<small>Sin puntos ni comas</small>
+						<input type="number" name="montoIng" id="montoIng" placeholder="Escríbelo aquí" value="" maxlength="9" required>
+						<div class="line"></div>
+					</div>
+					<div class="input_text">
+						<label for="tipoIng">Tipo:</label>
+						<select id="tipoIng" name="tipoIng">
+						  <option value="Salario">Salario</option>
+						  <option value="Renta">Arrendamientos</option>
+						  <option value="Otros">Otros</option>
+						</select>
+						<div class="line"></div>
+					</div>
+					<div class="input_text">
+						<label for="notaIng">Nota:</label>
+						<small>Máximo 70 caractéres</small>
+						<input type="text" name="notaIng" id="notaIng" placeholder="Escríbelo aquí" value="" maxlength="70" />
+						<div class="line"></div>
+					</div>
+					<div class="btns-center">
+						<button onclick="GuardarNuevoIngreso()" class="btn-solicitar btn-blue">Guardar</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+
+
+
+<!--<div id="window_historia" class="window">
+		<div id="historia">
+			<div class="superior">
+				<h1 class="ui-header ui-title">Histórico</h1>
+				<a href="javascript: Insertar.ver_historia('hide')" class="btn-right">Cerrar</a>
+			</div>
+			<div class="ui-content ui-body-b">
+
+				<div class="titulo-bg">
+					<label>Ingresos</label>
+				</div>
+
+				<div data-role="fieldcontain">
+					<table data-role="table" id="ingresos_historico" data-mode="no-reflow" class="table-stroke">
+						<thead>
+							<tr>
+								<th>Monto</th>
+								<th>Fecha</th>
+								<th>Tipo</th>
+								<th>Nota</th>
+							</tr>
+						</thead>
+						<tbody>
+						</tbody>
+					</table>
+				</div>
+
+				<div class="titulo-bg">
+					<label>Egresos</label>
+				</div>
+				<div data-role="fieldcontain">
+					<table data-role="table" id="egresos_historico" data-mode="no-reflow" class="table-stroke">
+						<thead>
+							<tr>
+								<th>Monto</th>
+								<th>Fecha</th>
+								<th>Tipo</th>
+								<th>Nota</th>
+							</tr>
+						</thead>
+						<tbody>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>-->
+
+
+
+	<div class="footer">
+		<div>
+			<a href="__mapas.html" id="flink-puntos" class="ui-link">
+				<span></span>
+			</a>
+			<a href="__portafolio.html" id="flink-portafolio" class="ui-link">
+				<span></span>
+			</a>
+			<a href="__asesoria.html" id="flink-asesoria" class="ui-link">
+				<span></span>
+			</a>
+			<a href="__finanzas.html" id="flink-finanzas" class="external ui-link" >
+				<span></span>
+			</a>
+			<a href="educacion.html" id="flink-educacion" class="ui-link" >
+				<span></span>
+			</a>
+			</a>
+			<a href="vivienda.html" id="flink-vivienda" class="ui-link" >
+				<span></span>
+			</a>
+		</div>
+	</div>
+
+
+  <div id="window_compartir" class="window">
+  	<div class="window-container">
+    <div id="compartir">
+      <div class="superior">
+        <h1 class="ui-header ui-title">FNA Social</h1>
+        <a href="javascript: Funciones.compartir('hide')" class="btn-right">Cerrar</a>
+      </div>
+      <div class="ui-content ui-body-b">
+        <div class="window-content">
+						<button class="btn-blue btn-block btn-google" onclick="openLinkInBrowser('https://plus.google.com/share?url=http://fna.gov.co');">
+							<img src="img/icon_google.png" alt="Google+"><span>Google+</span>
+						</button>
+
+						<button class="btn-blue btn-block btn-facebook" onclick="openLinkInBrowser('https://www.facebook.com/sharer/sharer.php?u=http://fna.gov.co');">
+							<img src="img/icon_facebook.png" alt="Facebook"><span>Facebook</span>
+						</button>
+
+						<button class="btn-blue btn-block btn-twitter" onclick="openLinkInBrowser('https://twitter.com/intent/tweet?text=Visita%20fna.gov.co');">
+							<img src="img/icon_twitter.png" alt="Twitter"><span>Twitter</span>
+						</button>
+
+						<button class="btn-blue btn-block btn-linkedin" onclick="openLinkInBrowser('http://www.linkedin.com/shareArticle?mini=true&url=http://fna.gov.co');">
+							<img src="img/icon_linkedin.png" alt="Linkedin"><span>Linkedin</span>
+						</button>
+					</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+	<div id="loading" class="ui-loader ui-corner-all ui-body-a ui-loader-verbose">
+		<span class="ui-icon ui-icon-loading"></span>
+		<h1> -- </h1>
+	</div>
+
+	<script type="text/javascript" >
+		app.initialize()
+	</script>
+</body>
+</html>

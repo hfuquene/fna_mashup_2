@@ -1,0 +1,1354 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xml:base='http://186.85.82.222/v1/Fondo_Nacional_Ahorro/' xmlns:d='http://schemas.microsoft.com/ado/2007/08/dataservices' xmlns:m='http://schemas.microsoft.com/ado/2007/08/dataservices/metadata' xmlns='http://www.w3.org/2005/Atom'>
+              <title type='text'>bdfnaviviendafinal</title>
+              <id>http://186.85.82.222/v1/Fondo_Nacional_Ahorro/bdfnaviviendafinal</id>
+              <updated>2013-12-03T22:22:22Z</updated>
+              <link rel='self' title='bdfnaviviendafinal' href='bdfnaviviendafinal'/> 
+  <entry><id></id><title type='text'/><updated></updated><author><name/></author><link rel='edit'/><category scheme='http://schemas.microsoft.com/ado/2007/08/dataservices/scheme'/><content type='application/xml'><m:properties>
+    <d:PartitionKey>ADA7EE30-088E-4912-96EA-C126015412C5</d:PartitionKey>
+    <d:RowKey>FA6CA3A6-43C5-4329-81A0-B852B713DE43</d:RowKey>
+    <d:nombreproyecto>Aldea Campestre</d:nombreproyecto>
+    <d:direccionproyecto>KM 10 VIA CALI-CANDELARIA</d:direccionproyecto>
+    <d:barrio>ALDEA CAMPESTRE</d:barrio>
+    <d:preciodesde>61300000</d:preciodesde>
+    <d:preciohasta>65300000</d:preciohasta>
+    <d:areadesde>98</d:areadesde>
+    <d:areahasta>102</d:areahasta>
+    <d:nombreconstructora>MEJOR VIVIR CONSTRUCTORA S.A</d:nombreconstructora>
+    <d:departamento>VALLE DEL CAUCA</d:departamento>
+    <d:ciudad>CANDELARIA</d:ciudad>
+    <d:localidadozona />
+    <d:direccionsedeprincipalconstructora>CALLE 38 NORTE NO. 3N-84</d:direccionsedeprincipalconstructora>
+    <d:nitconstructora>805029905-7</d:nitconstructora>
+    <d:nombrerepresentante_legalconstructora>DIEGO HERNAN HURTADO VARON</d:nombrerepresentante_legalconstructora>
+    <d:nombrecontactoconstructora>LORENA DIAZ ESCOBAR</d:nombrecontactoconstructora>
+    <d:telefonocontacto_constructora>4854791  EXT 124</d:telefonocontacto_constructora>
+    <d:email_constructora>ldiaz@constructoramejorvivir.com</d:email_constructora>
+    <d:direccionsala_deventas>KM 10 VIA CALI-CANDELARIA</d:direccionsala_deventas>
+    <d:telefono_fijo_sala_de_ventas>2618486</d:telefono_fijo_sala_de_ventas>
+    <d:telefono_celular_sala_de_ventas>3136852162</d:telefono_celular_sala_de_ventas>
+    <d:nombrecontacto_saladeventas>LORENA DIAZ ESCOBAR</d:nombrecontacto_saladeventas>
+    <d:diadeatencion_desde>LUNES</d:diadeatencion_desde>
+    <d:diadeatencion_hasta>DOMINGO</d:diadeatencion_hasta>
+    <d:horadeatencion_desde>9:00 AM</d:horadeatencion_desde>
+    <d:horadeatencion_hasta>5:30 PM</d:horadeatencion_hasta>
+    <d:tipode_inmueble_ofrecido>CASA</d:tipode_inmueble_ofrecido>
+	
+	<d:latitud>3.399057</d:latitud>
+	<d:longitud>-76.384019</d:longitud>
+	
+	 
+		<link1>imagenes/1.jpg</link1>
+		<link2>imagenes/2.jpg</link2>
+		<link3>imagenes/3.jpg</link3>
+		<link4>imagenes/4.jpg</link4>
+		<link5>imagenes/5.jpg</link5>
+	 
+	
+    <d:cantidad_de_inmuebles_disponibles>66</d:cantidad_de_inmuebles_disponibles>
+    <d:acabados>OBRA GRIS</d:acabados>
+    <d:caracteristicas_proyecto>ACUEDUCTO Y ALCANTARILLADO</d:caracteristicas_proyecto>
+    <d:estrato>2</d:estrato>
+    <d:clase_de_vivienda>VIS</d:clase_de_vivienda>
+    <d:aplica_subsidio>SI</d:aplica_subsidio>
+    <d:fechade_entrega>Junio 30 de 2013</d:fechade_entrega>
+    <d:estadoobra>SERVICIOS PÚBLICOS</d:estadoobra>
+  </m:properties></content></entry>
+  <entry><id></id><title type='text'/><updated></updated><author><name/></author><link rel='edit'/><category scheme='http://schemas.microsoft.com/ado/2007/08/dataservices/scheme'/><content type='application/xml'><m:properties>
+    <d:PartitionKey>1DCFCFB4-F020-44DA-AE0C-D4E2CF4D02A2</d:PartitionKey>
+    <d:RowKey>8967CBB0-2F2F-475A-8ED1-92AE164E8BC4</d:RowKey>
+    <d:nombreproyecto>Alto de Santander</d:nombreproyecto>
+    <d:direccionproyecto>AV 20 # 27-29</d:direccionproyecto>
+    <d:barrio>SANTANDER</d:barrio>
+    <d:preciodesde>68000000</d:preciodesde>
+    <d:preciohasta>76000000</d:preciohasta>
+    <d:areadesde>68</d:areadesde>
+    <d:areahasta>85</d:areahasta>
+    <d:nombreconstructora>INMOBILIARIA y  CONSTRUCCIONES GRUPO HOGAR S.A.S</d:nombreconstructora>
+    <d:departamento>NORTE DE SANTANDER</d:departamento>
+    <d:ciudad>CUCUTA</d:ciudad>
+    <d:localidadozona />
+    <d:direccionsedeprincipalconstructora>CALLE  11 No 4-74 OFC. 307 EDIFICIO CUCUTA CENTRO</d:direccionsedeprincipalconstructora>
+    <d:nitconstructora>900.84.968-6</d:nitconstructora>
+    <d:nombrerepresentante_legalconstructora>JHAN PIERO ROJAS SUAREZ</d:nombrerepresentante_legalconstructora>
+    <d:nombrecontactoconstructora>ANDRE KARINA FLOREZ</d:nombrecontactoconstructora>
+    <d:telefonocontacto_constructora>5721412 - 5712616</d:telefonocontacto_constructora>
+    <d:email_constructora>inmobiliaria.construcciones@grupohogar.com.co</d:email_constructora>
+    <d:direccionsala_deventas>AV. 20 # 27-29 SANTANDER</d:direccionsala_deventas>
+    <d:telefono_fijo_sala_de_ventas />
+    <d:telefono_celular_sala_de_ventas>3144793853</d:telefono_celular_sala_de_ventas>
+    <d:nombrecontacto_saladeventas>YINCY KARIME GARCES VILLAMIZAR</d:nombrecontacto_saladeventas>
+    <d:diadeatencion_desde>LUNES</d:diadeatencion_desde>
+    <d:diadeatencion_hasta>SÁBADO</d:diadeatencion_hasta>
+    <d:horadeatencion_desde>8:00 AM</d:horadeatencion_desde>
+    <d:horadeatencion_hasta>5:00 PM</d:horadeatencion_hasta>
+    <d:tipode_inmueble_ofrecido>APARTAMENTO</d:tipode_inmueble_ofrecido>
+	
+	<d:latitud>7.871806</d:latitud>
+	<d:longitud>-72.519585</d:longitud>
+	
+	 
+		<link1>imagenes/1.jpg</link1>
+		<link2>imagenes/2.jpg</link2>
+		<link3>imagenes/3.jpg</link3>
+		<link4>imagenes/4.jpg</link4>
+		<link5>imagenes/5.jpg</link5>
+		
+		
+	 
+	
+    <d:cantidad_de_inmuebles_disponibles>160</d:cantidad_de_inmuebles_disponibles>
+    <d:acabados>OBRA GRIS</d:acabados>
+    <d:caracteristicas_proyecto>EN CONJUNTO CERRADO</d:caracteristicas_proyecto>
+    <d:estrato>2</d:estrato>
+    <d:clase_de_vivienda>VIS</d:clase_de_vivienda>
+    <d:aplica_subsidio>SI</d:aplica_subsidio>
+    <d:fechade_entrega>Marzo 31 de 2014</d:fechade_entrega>
+    <d:estadoobra>ACCESO PAVIMENTADO</d:estadoobra>
+  </m:properties></content></entry>
+  <entry><id></id><title type='text'/><updated></updated><author><name/></author><link rel='edit'/><category scheme='http://schemas.microsoft.com/ado/2007/08/dataservices/scheme'/><content type='application/xml'><m:properties>
+    <d:PartitionKey>33086B40-999B-4332-9CD4-3CE39E63B7AD</d:PartitionKey>
+    <d:RowKey>8B620F8F-45D9-4232-9F0D-E339E85940BB</d:RowKey>
+    <d:nombreproyecto>Conjunto Residencial Arrayanes Ltda</d:nombreproyecto>
+    <d:direccionproyecto>CRA 60A No52D-35 APTO 301</d:direccionproyecto>
+    <d:barrio />
+    <d:preciodesde>69900000</d:preciodesde>
+    <d:preciohasta>73000000</d:preciohasta>
+    <d:areadesde>57</d:areadesde>
+    <d:areahasta>79</d:areahasta>
+    <d:nombreconstructora>PROCIL S.A.S</d:nombreconstructora>
+    <d:departamento>ANTIOQUIA</d:departamento>
+    <d:ciudad>RIONEGRO</d:ciudad>
+    <d:localidadozona />
+    <d:direccionsedeprincipalconstructora>CALLE 33 No 74E- 69 ED COOMEVA PISO 8</d:direccionsedeprincipalconstructora>
+    <d:nitconstructora>890914965-4</d:nitconstructora>
+    <d:nombrerepresentante_legalconstructora>JUAN CARLOS CADAVID B.</d:nombrerepresentante_legalconstructora>
+    <d:nombrecontactoconstructora>LUIS FERNANDO CASTAÑO - HECTOR JAIME GOMEZ</d:nombrecontactoconstructora>
+    <d:telefonocontacto_constructora>4122551</d:telefonocontacto_constructora>
+    <d:email_constructora>procil@procil.com</d:email_constructora>
+    <d:direccionsala_deventas>CRA 60A No52D-35 APTO 301</d:direccionsala_deventas>
+    <d:telefono_fijo_sala_de_ventas>5320003</d:telefono_fijo_sala_de_ventas>
+    <d:telefono_celular_sala_de_ventas>3147995874 - 3218113932</d:telefono_celular_sala_de_ventas>
+    <d:nombrecontacto_saladeventas>LUIS FERNANDO CASTAÑO</d:nombrecontacto_saladeventas>
+    <d:diadeatencion_desde>LUNES</d:diadeatencion_desde>
+    <d:diadeatencion_hasta>DOMINGO</d:diadeatencion_hasta>
+    <d:horadeatencion_desde>8:00 AM</d:horadeatencion_desde>
+    <d:horadeatencion_hasta>5:00 PM</d:horadeatencion_hasta>
+    <d:tipode_inmueble_ofrecido>APARTAMENTO</d:tipode_inmueble_ofrecido>
+	
+	<d:latitud>6.160898</d:latitud>
+	<d:longitud>-75.374375</d:longitud>
+	
+	 
+		<link1>imagenes/1.jpg</link1>
+		<link2>imagenes/2.jpg</link2>
+		<link3>imagenes/3.jpg</link3>
+		<link4>imagenes/4.jpg</link4>
+		<link5>imagenes/5.jpg</link5>
+	 
+	
+    <d:cantidad_de_inmuebles_disponibles>582</d:cantidad_de_inmuebles_disponibles>
+    <d:acabados>OBRA GRIS</d:acabados>
+    <d:caracteristicas_proyecto></d:caracteristicas_proyecto>
+    <d:estrato>3</d:estrato>
+    <d:clase_de_vivienda>VIS</d:clase_de_vivienda>
+    <d:aplica_subsidio>SI</d:aplica_subsidio>
+    <d:fechade_entrega>Noviembre 30 de 2013</d:fechade_entrega>
+    <d:estadoobra>OBRA GRIS</d:estadoobra>
+  </m:properties></content></entry>
+  <entry><id></id><title type='text'/><updated></updated><author><name/></author><link rel='edit'/><category scheme='http://schemas.microsoft.com/ado/2007/08/dataservices/scheme'/><content type='application/xml'><m:properties>
+    <d:PartitionKey>8EFD9DE3-059F-4974-A8EF-3068C080BE0D</d:PartitionKey>
+    <d:RowKey>89D5C787-16E6-44A9-81A6-D81C775A90CB</d:RowKey>
+    <d:nombreproyecto>Condado del Este</d:nombreproyecto>
+    <d:direccionproyecto>AVENIDA 8a No. 6-70</d:direccionproyecto>
+    <d:barrio>SECTOR PRADOS DEL ESTE</d:barrio>
+    <d:preciodesde>108000000</d:preciodesde>
+    <d:preciohasta>120000000</d:preciohasta>
+    <d:areadesde>60</d:areadesde>
+    <d:areahasta>62</d:areahasta>
+    <d:nombreconstructora>PROMOTORA DE INVERSIONES S.A.S.</d:nombreconstructora>
+    <d:departamento>NORTE DE SANTANDER</d:departamento>
+    <d:ciudad>CUCUTA</d:ciudad>
+    <d:localidadozona />
+    <d:direccionsedeprincipalconstructora>AVENIDA 0 # 2N-21</d:direccionsedeprincipalconstructora>
+    <d:nitconstructora>8905060381</d:nitconstructora>
+    <d:nombrerepresentante_legalconstructora>RAÚL A. COLMENARES</d:nombrerepresentante_legalconstructora>
+    <d:nombrecontactoconstructora>KETTY LAROCHE</d:nombrecontactoconstructora>
+    <d:telefonocontacto_constructora>577-5740202</d:telefonocontacto_constructora>
+    <d:email_constructora>ventas@viviendasyvalores.com.co</d:email_constructora>
+    <d:direccionsala_deventas>AVENIDA 0 #2N-21</d:direccionsala_deventas>
+    <d:telefono_fijo_sala_de_ventas>5740202</d:telefono_fijo_sala_de_ventas>
+    <d:telefono_celular_sala_de_ventas>3187344568</d:telefono_celular_sala_de_ventas>
+    <d:nombrecontacto_saladeventas>KETTY LAROCHE</d:nombrecontacto_saladeventas>
+    <d:diadeatencion_desde>LUNES</d:diadeatencion_desde>
+    <d:diadeatencion_hasta>SÁBADO</d:diadeatencion_hasta>
+    <d:horadeatencion_desde>8:00 AM</d:horadeatencion_desde>
+    <d:horadeatencion_hasta>6:00 PM</d:horadeatencion_hasta>
+    <d:tipode_inmueble_ofrecido>APARTAMENTO</d:tipode_inmueble_ofrecido>
+	
+	<d:latitud>7.905611</d:latitud>
+	<d:longitud>-72.474159</d:longitud>
+	
+	 
+		<link1>imagenes/1.jpg</link1>
+		<link2>imagenes/2.jpg</link2>
+		<link3>imagenes/3.jpg</link3>
+		<link4>imagenes/4.jpg</link4>
+		<link5>imagenes/5.jpg</link5>
+	
+    <d:cantidad_de_inmuebles_disponibles>17</d:cantidad_de_inmuebles_disponibles>
+    <d:acabados>TERMINADOS</d:acabados>
+    <d:caracteristicas_proyecto>APARTAMENTOS EN CONJUNTO CERRADO</d:caracteristicas_proyecto>
+    <d:estrato>3</d:estrato>
+    <d:clase_de_vivienda>NO VIS</d:clase_de_vivienda>
+    <d:aplica_subsidio>NO</d:aplica_subsidio>
+    <d:fechade_entrega>Julio 31 de 2013</d:fechade_entrega>
+    <d:estadoobra>OBRA GRIS</d:estadoobra>
+  </m:properties></content></entry>
+  <entry><id></id><title type='text'/><updated></updated><author><name/></author><link rel='edit'/><category scheme='http://schemas.microsoft.com/ado/2007/08/dataservices/scheme'/><content type='application/xml'><m:properties>
+    <d:PartitionKey>785475CD-A03F-44B0-9F17-7E293A0C7C89</d:PartitionKey>
+    <d:RowKey>7DB49AD0-334A-4CE4-811F-3DB746553128</d:RowKey>
+    <d:nombreproyecto>Molinos de la Sabana</d:nombreproyecto>
+    <d:direccionproyecto>CRA 3 No. 1 Contiguo al Polideportivo</d:direccionproyecto>
+    <d:barrio>Las Mercedes</d:barrio>
+    <d:preciodesde>58000000</d:preciodesde>
+    <d:preciohasta>61000000</d:preciohasta>
+    <d:areadesde>44</d:areadesde>
+    <d:areahasta>48</d:areahasta>
+    <d:nombreconstructora>CONSTRUCTORA DIANA VERONICA</d:nombreconstructora>
+    <d:departamento>CUNDINAMARCA</d:departamento>
+    <d:ciudad>GACHANCIPA</d:ciudad>
+    <d:localidadozona />
+    <d:direccionsedeprincipalconstructora>CALLE 100 NO. 8 A 55 TORRE C PISO 2 OFIC 214</d:direccionsedeprincipalconstructora>
+    <d:nitconstructora>8001742614</d:nitconstructora>
+    <d:nombrerepresentante_legalconstructora>ALBERTO MANOTAS</d:nombrerepresentante_legalconstructora>
+    <d:nombrecontactoconstructora>MARILUZ NIETO CASTILLO</d:nombrecontactoconstructora>
+    <d:telefonocontacto_constructora>7422323 ETX 2223</d:telefonocontacto_constructora>
+    <d:email_constructora>mnieto@grupoconstrumax.com</d:email_constructora>
+    <d:direccionsala_deventas>CRA 3 No. 1 Contiguo al Polideportivo</d:direccionsala_deventas>
+    <d:telefono_fijo_sala_de_ventas>8578476</d:telefono_fijo_sala_de_ventas>
+    <d:telefono_celular_sala_de_ventas>3205233953</d:telefono_celular_sala_de_ventas>
+    <d:nombrecontacto_saladeventas>Wilson Bustos</d:nombrecontacto_saladeventas>
+    <d:diadeatencion_desde>LUNES</d:diadeatencion_desde>
+    <d:diadeatencion_hasta>DOMINGO</d:diadeatencion_hasta>
+    <d:horadeatencion_desde>9:30 AM</d:horadeatencion_desde>
+    <d:horadeatencion_hasta>5:30 PM</d:horadeatencion_hasta>
+    <d:tipode_inmueble_ofrecido>APARTAMENTO</d:tipode_inmueble_ofrecido>
+	
+	<d:latitud>4.988285</d:latitud>
+	<d:longitud>-73.874170</d:longitud>
+	
+	 
+		<link1>imagenes/1.jpg</link1>
+		<link2>imagenes/2.jpg</link2>
+		<link3>imagenes/3.jpg</link3>
+		<link4>imagenes/4.jpg</link4>
+		<link5>imagenes/5.jpg</link5>
+	 
+	
+    <d:cantidad_de_inmuebles_disponibles>455</d:cantidad_de_inmuebles_disponibles>
+    <d:acabados></d:acabados>
+    <d:caracteristicas_proyecto>OBRA GRIS</d:caracteristicas_proyecto>
+    <d:estrato>2</d:estrato>
+    <d:clase_de_vivienda>VIS</d:clase_de_vivienda>
+    <d:aplica_subsidio>SI</d:aplica_subsidio>
+    <d:fechade_entrega>Abril 30 de 2014</d:fechade_entrega>
+    <d:estadoobra>OBRA GRIS</d:estadoobra>
+  </m:properties></content></entry>
+  <entry><id></id><title type='text'/><updated></updated><author><name/></author><link rel='edit'/><category scheme='http://schemas.microsoft.com/ado/2007/08/dataservices/scheme'/><content type='application/xml'><m:properties>
+    <d:PartitionKey>428BFEFF-5F9E-4057-B46A-FAB360A40D84</d:PartitionKey>
+    <d:RowKey>8EC79283-2F2E-40E6-8B71-230F4F89F90B</d:RowKey>
+    <d:nombreproyecto>Florida Norteamerica Etapa 1</d:nombreproyecto>
+    <d:direccionproyecto>Avenida 26 # 52- 200. Navarra</d:direccionproyecto>
+    <d:barrio>Navarra</d:barrio>
+    <d:preciodesde>94000000</d:preciodesde>
+    <d:preciohasta>117000000</d:preciohasta>
+    <d:areadesde>60</d:areadesde>
+    <d:areahasta>67</d:areahasta>
+    <d:nombreconstructora>NORTEAMERICA SAS</d:nombreconstructora>
+    <d:departamento>ANTIOQUIA</d:departamento>
+    <d:ciudad>BELLO</d:ciudad>
+    <d:localidadozona>NOROCCIDENTE - MEDELLIN</d:localidadozona>
+    <d:direccionsedeprincipalconstructora>AVENIDA 26 # 52 - 200</d:direccionsedeprincipalconstructora>
+    <d:nitconstructora>9003448583</d:nitconstructora>
+    <d:nombrerepresentante_legalconstructora>JOSE ALBERTO LOPEZ VELEZ</d:nombrerepresentante_legalconstructora>
+    <d:nombrecontactoconstructora>ARLEY MARIN GONZALEZ</d:nombrecontactoconstructora>
+    <d:telefonocontacto_constructora>4449828 EXT 102</d:telefonocontacto_constructora>
+    <d:email_constructora>arleymago@gmail.com</d:email_constructora>
+    <d:direccionsala_deventas>Avenida 26 # 52- 200. Navarra</d:direccionsala_deventas>
+    <d:telefono_fijo_sala_de_ventas>4 44 98 28 Ext 111 - 114</d:telefono_fijo_sala_de_ventas>
+    <d:telefono_celular_sala_de_ventas>3206879105/3153031057</d:telefono_celular_sala_de_ventas>
+    <d:nombrecontacto_saladeventas>Juliana Vanegas / Tatiana Naranjo</d:nombrecontacto_saladeventas>
+    <d:diadeatencion_desde>Lunes</d:diadeatencion_desde>
+    <d:diadeatencion_hasta>Domingo</d:diadeatencion_hasta>
+    <d:horadeatencion_desde>9:30 AM</d:horadeatencion_desde>
+    <d:horadeatencion_hasta>5:30 PM</d:horadeatencion_hasta>
+    <d:tipode_inmueble_ofrecido>APARTAMENTO</d:tipode_inmueble_ofrecido>
+	
+	<d:latitud>6.346713</d:latitud>
+	<d:longitud>-75.534937</d:longitud>
+	
+	 
+		<link1>imagenes/1.jpg</link1>
+		<link2>imagenes/2.jpg</link2>
+		<link3>imagenes/3.jpg</link3>
+		<link4>imagenes/4.jpg</link4>
+		<link5>imagenes/5.jpg</link5>
+	 
+	
+    <d:cantidad_de_inmuebles_disponibles>35</d:cantidad_de_inmuebles_disponibles>
+    <d:acabados>OBRA GRIS</d:acabados>
+    <d:caracteristicas_proyecto>8 TORRES DE 200 APTOS</d:caracteristicas_proyecto>
+    <d:estrato>3</d:estrato>
+    <d:clase_de_vivienda>NO VIS</d:clase_de_vivienda>
+    <d:aplica_subsidio>NO</d:aplica_subsidio>
+    <d:fechade_entrega>Febrero 28 de 2013</d:fechade_entrega>
+    <d:estadoobra>OBRA GRIS</d:estadoobra>
+  </m:properties></content></entry>
+  <entry><id></id><title type='text'/><updated></updated><author><name/></author><link rel='edit'/><category scheme='http://schemas.microsoft.com/ado/2007/08/dataservices/scheme'/><content type='application/xml'><m:properties>
+    <d:PartitionKey>DCB42030-D7BA-4317-80DA-D38FAB79B3CC</d:PartitionKey>
+    <d:RowKey>18C5075D-3924-465C-B08E-BDBF8F918BDC</d:RowKey>
+    <d:nombreproyecto>Florida Norteamerica Etapa 2</d:nombreproyecto>
+    <d:direccionproyecto>Avenida 26 # 52- 200. Navarra</d:direccionproyecto>
+    <d:barrio>Navarra</d:barrio>
+    <d:preciodesde>94000000</d:preciodesde>
+    <d:preciohasta>122200000</d:preciohasta>
+    <d:areadesde>60</d:areadesde>
+    <d:areahasta>75</d:areahasta>
+    <d:nombreconstructora>NORTEAMERICA SAS</d:nombreconstructora>
+    <d:departamento>ANTIOQUIA</d:departamento>
+    <d:ciudad>BELLO</d:ciudad>
+    <d:localidadozona>NOROCCIDENTE - MEDELLIN</d:localidadozona>
+    <d:direccionsedeprincipalconstructora>AVENIDA 26 # 52 - 201</d:direccionsedeprincipalconstructora>
+    <d:nitconstructora>9003448584</d:nitconstructora>
+    <d:nombrerepresentante_legalconstructora>JOSE ALBERTO LOPEZ VELEZ</d:nombrerepresentante_legalconstructora>
+    <d:nombrecontactoconstructora>ARLEY MARIN GONZALEZ</d:nombrecontactoconstructora>
+    <d:telefonocontacto_constructora>4449828 EXT 103</d:telefonocontacto_constructora>
+    <d:email_constructora>arleymarin@une.net.co</d:email_constructora>
+    <d:direccionsala_deventas>Avenida 26 # 52- 200. Navarra</d:direccionsala_deventas>
+    <d:telefono_fijo_sala_de_ventas>4 44 98 28 Ext 111 - 114</d:telefono_fijo_sala_de_ventas>
+    <d:telefono_celular_sala_de_ventas>3206879105/3153031057</d:telefono_celular_sala_de_ventas>
+    <d:nombrecontacto_saladeventas>Juliana Vanegas / Tatiana Naranjo</d:nombrecontacto_saladeventas>
+    <d:diadeatencion_desde>Lunes</d:diadeatencion_desde>
+    <d:diadeatencion_hasta>Domingo</d:diadeatencion_hasta>
+    <d:horadeatencion_desde>9:30 AM</d:horadeatencion_desde>
+    <d:horadeatencion_hasta>5:30 PM</d:horadeatencion_hasta>
+    <d:tipode_inmueble_ofrecido>APARTAMENTO</d:tipode_inmueble_ofrecido>
+	
+	<d:latitud>6.346713</d:latitud>
+	<d:longitud>-75.534937</d:longitud>
+	
+	 
+		<link1>imagenes/1.jpg</link1>
+		<link2>imagenes/2.jpg</link2>
+		<link3>imagenes/3.jpg</link3>
+		<link4>imagenes/4.jpg</link4>
+		<link5>imagenes/5.jpg</link5>
+	 
+	
+   <d:cantidad_de_inmuebles_disponibles>61</d:cantidad_de_inmuebles_disponibles>
+    <d:acabados>OBRA GRIS</d:acabados>
+    <d:caracteristicas_proyecto>8 TORRES DE 200 APTOS</d:caracteristicas_proyecto>
+    <d:estrato>3</d:estrato>
+    <d:clase_de_vivienda>NO VIS</d:clase_de_vivienda>
+    <d:aplica_subsidio>NO</d:aplica_subsidio>
+    <d:fechade_entrega>Diciembre 31 de 2013</d:fechade_entrega>
+    <d:estadoobra>OBRA GRIS</d:estadoobra>
+  </m:properties></content></entry>
+  <entry><id></id><title type='text'/><updated></updated><author><name/></author><link rel='edit'/><category scheme='http://schemas.microsoft.com/ado/2007/08/dataservices/scheme'/><content type='application/xml'><m:properties>
+    <d:PartitionKey>CAA9A874-4C65-4515-855F-2214B9111071</d:PartitionKey>
+    <d:RowKey>AC9A07F1-4AE8-4558-BF0B-A6713DD8A037</d:RowKey>
+    <d:nombreproyecto>Florida Norteamerica Etapa 3</d:nombreproyecto>
+    <d:direccionproyecto>Avenida 26 # 52- 200. Navarra</d:direccionproyecto>
+    <d:barrio>Navarra</d:barrio>
+    <d:preciodesde>110800000</d:preciodesde>
+    <d:preciohasta>150200000</d:preciohasta>
+    <d:areadesde>69</d:areadesde>
+    <d:areahasta>90</d:areahasta>
+    <d:nombreconstructora>NORTEAMERICA SAS</d:nombreconstructora>
+    <d:departamento>ANTIOQUIA</d:departamento>
+    <d:ciudad>BELLO</d:ciudad>
+    <d:localidadozona>NOROCCIDENTE - MEDELLIN</d:localidadozona>
+    <d:direccionsedeprincipalconstructora>AVENIDA 26 # 52 - 202</d:direccionsedeprincipalconstructora>
+    <d:nitconstructora>9003448585</d:nitconstructora>
+    <d:nombrerepresentante_legalconstructora>JOSE ALBERTO LOPEZ VELEZ</d:nombrerepresentante_legalconstructora>
+    <d:nombrecontactoconstructora>ARLEY MARIN GONZALEZ</d:nombrecontactoconstructora>
+    <d:telefonocontacto_constructora>4449828 EXT 104</d:telefonocontacto_constructora>
+    <d:email_constructora>arleymarin@une.net.co</d:email_constructora>
+   <d:direccionsala_deventas>Avenida 26 # 52- 200. Navarra</d:direccionsala_deventas>
+    <d:telefono_fijo_sala_de_ventas>4 44 98 28 Ext 111 - 114</d:telefono_fijo_sala_de_ventas>
+    <d:telefono_celular_sala_de_ventas>3206879105/3153031057</d:telefono_celular_sala_de_ventas>
+    <d:nombrecontacto_saladeventas>Juliana Vanegas / Tatiana Naranjo</d:nombrecontacto_saladeventas>
+    <d:diadeatencion_desde>Lunes</d:diadeatencion_desde>
+    <d:diadeatencion_hasta>Domingo</d:diadeatencion_hasta>
+    <d:horadeatencion_desde>9:30 AM</d:horadeatencion_desde>
+    <d:horadeatencion_hasta>5:30 PM</d:horadeatencion_hasta>
+    <d:tipode_inmueble_ofrecido>APARTAMENTO</d:tipode_inmueble_ofrecido>
+	
+	<d:latitud>6.346713</d:latitud>
+	<d:longitud>-75.534937</d:longitud>
+	
+	 
+		<link1>imagenes/1.jpg</link1>
+		<link2>imagenes/2.jpg</link2>
+		<link3>imagenes/3.jpg</link3>
+		<link4>imagenes/4.jpg</link4>
+		<link5>imagenes/5.jpg</link5>
+	 
+	
+    <d:cantidad_de_inmuebles_disponibles>157</d:cantidad_de_inmuebles_disponibles>
+    <d:acabados>OBRA GRIS</d:acabados>
+    <d:caracteristicas_proyecto>8 TORRES DE 200 APTOS</d:caracteristicas_proyecto>
+    <d:estrato>3</d:estrato>
+    <d:clase_de_vivienda>NO VIS</d:clase_de_vivienda>
+    <d:aplica_subsidio>NO</d:aplica_subsidio>
+    <d:fechade_entrega>Junio 30 de 2014</d:fechade_entrega>
+    <d:estadoobra>OBRA GRIS</d:estadoobra>
+  </m:properties></content></entry>
+  <entry><id></id><title type='text'/><updated></updated><author><name/></author><link rel='edit'/><category scheme='http://schemas.microsoft.com/ado/2007/08/dataservices/scheme'/><content type='application/xml'><m:properties>
+    <d:PartitionKey>8D823898-040D-4841-9B3C-2D07353C5E2A</d:PartitionKey>
+    <d:RowKey>79AB5F98-32E8-4199-944D-BED5589BCDFE</d:RowKey>
+    <d:nombreproyecto>Florida Norteamerica Etapa 4</d:nombreproyecto>
+    <d:direccionproyecto>Avenida 26 # 52- 200. Navarra</d:direccionproyecto>
+    <d:barrio>Navarra</d:barrio>
+    <d:preciodesde>115300000</d:preciodesde>
+    <d:preciohasta>156000000</d:preciohasta>
+    <d:areadesde>69</d:areadesde>
+    <d:areahasta>90</d:areahasta>
+    <d:nombreconstructora>NORTEAMERICA SAS</d:nombreconstructora>
+    <d:departamento>ANTIOQUIA</d:departamento>
+    <d:ciudad>BELLO</d:ciudad>
+    <d:localidadozona>NOROCCIDENTE - MEDELLIN</d:localidadozona>
+    <d:direccionsedeprincipalconstructora>AVENIDA 26 # 52 - 203</d:direccionsedeprincipalconstructora>
+    <d:nitconstructora>900344858-6</d:nitconstructora>
+    <d:nombrerepresentante_legalconstructora>JOSE ALBERTO LOPEZ VELEZ</d:nombrerepresentante_legalconstructora>
+    <d:nombrecontactoconstructora>ARLEY MARIN GONZALEZ</d:nombrecontactoconstructora>
+    <d:telefonocontacto_constructora>4449828 EXT 105</d:telefonocontacto_constructora>
+    <d:email_constructora>arleymarin@une.net.co</d:email_constructora>
+   <d:direccionsala_deventas>Avenida 26 # 52- 200. Navarra</d:direccionsala_deventas>
+    <d:telefono_fijo_sala_de_ventas>4 44 98 28 Ext 111 - 114</d:telefono_fijo_sala_de_ventas>
+    <d:telefono_celular_sala_de_ventas>3206879105/3153031057</d:telefono_celular_sala_de_ventas>
+    <d:nombrecontacto_saladeventas>Juliana Vanegas / Tatiana Naranjo</d:nombrecontacto_saladeventas>
+    <d:diadeatencion_desde>Lunes</d:diadeatencion_desde>
+    <d:diadeatencion_hasta>Domingo</d:diadeatencion_hasta>
+    <d:horadeatencion_desde>9:30 AM</d:horadeatencion_desde>
+    <d:horadeatencion_hasta>5:30 PM</d:horadeatencion_hasta>
+    <d:tipode_inmueble_ofrecido>APARTAMENTO</d:tipode_inmueble_ofrecido>
+	
+	<d:latitud>6.346713</d:latitud>
+	<d:longitud>-75.534937</d:longitud>
+	
+	 
+		<link1>imagenes/1.jpg</link1>
+		<link2>imagenes/2.jpg</link2>
+		<link3>imagenes/3.jpg</link3>
+		<link4>imagenes/4.jpg</link4>
+		<link5>imagenes/5.jpg</link5>
+	 
+	
+    <d:cantidad_de_inmuebles_disponibles>185</d:cantidad_de_inmuebles_disponibles>
+    <d:acabados>OBRA GRIS</d:acabados>
+    <d:caracteristicas_proyecto>8 TORRES DE 200 APTOS</d:caracteristicas_proyecto>
+    <d:estrato>3</d:estrato>
+    <d:clase_de_vivienda>NO VIS</d:clase_de_vivienda>
+    <d:aplica_subsidio>NO</d:aplica_subsidio>
+    <d:fechade_entrega>Marzo 31 de 2015</d:fechade_entrega>
+    <d:estadoobra>OBRA GRIS</d:estadoobra>
+  </m:properties></content></entry>
+  <entry><id></id><title type='text'/><updated></updated><author><name/></author><link rel='edit'/><category scheme='http://schemas.microsoft.com/ado/2007/08/dataservices/scheme'/><content type='application/xml'><m:properties>
+    <d:PartitionKey>2A605954-3AA4-40B9-9622-512BAA6674F8</d:PartitionKey>
+    <d:RowKey>954589DC-02F2-4A0A-B80A-9F07E772235F</d:RowKey>
+    <d:nombreproyecto>Florida Norteamerica Etapa 5</d:nombreproyecto>
+    <d:direccionproyecto>Avenida 26 # 52- 200. Navarra</d:direccionproyecto>
+    <d:barrio>Navarra</d:barrio>
+    <d:preciodesde>59800000</d:preciodesde>
+    <d:preciohasta>115500000</d:preciohasta>
+    <d:areadesde>38</d:areadesde>
+    <d:areahasta>54</d:areahasta>
+    <d:nombreconstructora>NORTEAMERICA SAS</d:nombreconstructora>
+    <d:departamento>ANTIOQUIA</d:departamento>
+    <d:ciudad>BELLO</d:ciudad>
+    <d:localidadozona>NOROCCIDENTE - MEDELLIN</d:localidadozona>
+    <d:direccionsedeprincipalconstructora>AVENIDA 26 # 52 - 204</d:direccionsedeprincipalconstructora>
+    <d:nitconstructora>900344858-7</d:nitconstructora>
+    <d:nombrerepresentante_legalconstructora>JOSE ALBERTO LOPEZ VELEZ</d:nombrerepresentante_legalconstructora>
+    <d:nombrecontactoconstructora>ARLEY MARIN GONZALEZ</d:nombrecontactoconstructora>
+    <d:telefonocontacto_constructora>4449828 EXT 106</d:telefonocontacto_constructora>
+    <d:email_constructora>arleymarin@une.net.co</d:email_constructora>
+   <d:direccionsala_deventas>Avenida 26 # 52- 200. Navarra</d:direccionsala_deventas>
+    <d:telefono_fijo_sala_de_ventas>4 44 98 28 Ext 111 - 114</d:telefono_fijo_sala_de_ventas>
+    <d:telefono_celular_sala_de_ventas>3206879105/3153031057</d:telefono_celular_sala_de_ventas>
+    <d:nombrecontacto_saladeventas>Juliana Vanegas / Tatiana Naranjo</d:nombrecontacto_saladeventas>
+    <d:diadeatencion_desde>Lunes</d:diadeatencion_desde>
+    <d:diadeatencion_hasta>Domingo</d:diadeatencion_hasta>
+    <d:horadeatencion_desde>9:30 AM</d:horadeatencion_desde>
+    <d:horadeatencion_hasta>5:30 PM</d:horadeatencion_hasta>
+    <d:tipode_inmueble_ofrecido>APARTAMENTO</d:tipode_inmueble_ofrecido>
+	
+	<d:latitud>6.346713</d:latitud>
+	<d:longitud>-75.534937</d:longitud>
+	
+	 
+		<link1>imagenes/1.jpg</link1>
+		<link2>imagenes/2.jpg</link2>
+		<link3>imagenes/3.jpg</link3>
+		<link4>imagenes/4.jpg</link4>
+		<link5>imagenes/5.jpg</link5>
+	 
+	
+    <d:cantidad_de_inmuebles_disponibles>200</d:cantidad_de_inmuebles_disponibles>
+    <d:acabados>OBRA GRIS</d:acabados>
+    <d:caracteristicas_proyecto>8 TORRES DE 200 APTOS</d:caracteristicas_proyecto>
+    <d:estrato>3</d:estrato>
+    <d:clase_de_vivienda>NO VIS</d:clase_de_vivienda>
+    <d:aplica_subsidio>NO</d:aplica_subsidio>
+    <d:fechade_entrega>Junio 30 de 2014</d:fechade_entrega>
+    <d:estadoobra>OBRA GRIS</d:estadoobra>
+  </m:properties></content></entry>
+  <entry><id></id><title type='text'/><updated></updated><author><name/></author><link rel='edit'/><category scheme='http://schemas.microsoft.com/ado/2007/08/dataservices/scheme'/><content type='application/xml'><m:properties>
+    <d:PartitionKey>4F1D7BD5-5CCD-4602-A2B4-F6A3AD2784F0</d:PartitionKey>
+    <d:RowKey>F48AA906-86B5-4112-ABD4-99DB30663DF0</d:RowKey>
+    <d:nombreproyecto>URBANIZACION RESERVA DEL BOSQUE</d:nombreproyecto>
+    <d:direccionproyecto>CRA 5A No. 2E - 13</d:direccionproyecto>
+    <d:barrio>EL BOSQUE</d:barrio>
+    <d:preciodesde>62300000</d:preciodesde>
+    <d:preciohasta>72300000</d:preciohasta>
+    <d:areadesde>64</d:areadesde>
+    <d:areahasta>72</d:areahasta>
+    <d:nombreconstructora>GERMAN BARRETO RODRIGUIEZ Y ASOCIADOS LTDA</d:nombreconstructora>
+    <d:departamento>TOLIMA</d:departamento>
+    <d:ciudad>ESPINAL</d:ciudad>
+    <d:localidadozona />
+    <d:direccionsedeprincipalconstructora>AV SUBA No 115-58 OFICINA 318 TORRE B</d:direccionsedeprincipalconstructora>
+    <d:nitconstructora>8000407000</d:nitconstructora>
+    <d:nombrerepresentante_legalconstructora>GERMAN BARRETO RODRIGUEZ</d:nombrerepresentante_legalconstructora>
+    <d:nombrecontactoconstructora>LILIANA MEJIA ORTIZ</d:nombrecontactoconstructora>
+    <d:telefonocontacto_constructora>8053484 - 3123063665</d:telefonocontacto_constructora>
+    <d:email_constructora>gerencia@gbryaso.com</d:email_constructora>
+    <d:direccionsala_deventas>CRA 5A No 2E - 13</d:direccionsala_deventas>
+    <d:telefono_fijo_sala_de_ventas />
+    <d:telefono_celular_sala_de_ventas>3123063665</d:telefono_celular_sala_de_ventas>
+    <d:nombrecontacto_saladeventas>MARIA ISABEL ARIAS</d:nombrecontacto_saladeventas>
+    <d:diadeatencion_desde>LUNES</d:diadeatencion_desde>
+    <d:diadeatencion_hasta>SÁBADO</d:diadeatencion_hasta>
+    <d:horadeatencion_desde>8:30 AM</d:horadeatencion_desde>
+    <d:horadeatencion_hasta>5:00 PM</d:horadeatencion_hasta>
+    <d:tipode_inmueble_ofrecido>CASA</d:tipode_inmueble_ofrecido>
+	
+	<d:latitud>4.155162</d:latitud>
+	<d:longitud>-74.874070</d:longitud>
+	
+	 
+		<link1>imagenes/1.jpg</link1>
+		<link2>imagenes/2.jpg</link2>
+		<link3>imagenes/3.jpg</link3>
+		<link4>imagenes/4.jpg</link4>
+		<link5>imagenes/5.jpg</link5>
+	 
+	
+    <d:cantidad_de_inmuebles_disponibles>12</d:cantidad_de_inmuebles_disponibles>
+    <d:acabados>TERMINADO</d:acabados>
+    <d:caracteristicas_proyecto>AREAS TERMINADAS</d:caracteristicas_proyecto>
+    <d:estrato>3</d:estrato>
+    <d:clase_de_vivienda>VIS</d:clase_de_vivienda>
+    <d:aplica_subsidio>SI</d:aplica_subsidio>
+    <d:fechade_entrega>DICIEMBRE DE 2013</d:fechade_entrega>
+    <d:estadoobra>CONSTRUCCION</d:estadoobra>
+  </m:properties></content></entry>
+  <entry><id></id><title type='text'/><updated></updated><author><name/></author><link rel='edit'/><category scheme='http://schemas.microsoft.com/ado/2007/08/dataservices/scheme'/><content type='application/xml'><m:properties>
+    <d:PartitionKey>FB466166-1175-4DAB-9EC0-613A6F74012D</d:PartitionKey>
+    <d:RowKey>2EC730E4-0ADC-42CE-A64E-119A1CACB331</d:RowKey>
+    <d:nombreproyecto>URBANIZACION RESERVA DEL BOSQUE</d:nombreproyecto>
+    <d:direccionproyecto>CRA 5A No 2E - 13</d:direccionproyecto>
+    <d:barrio>EL BOSQUE</d:barrio>
+    <d:preciodesde>41400000</d:preciodesde>
+    <d:preciohasta>69200000</d:preciohasta>
+    <d:areadesde>41</d:areadesde>
+    <d:areahasta>68</d:areahasta>
+    <d:nombreconstructora>GERMAN BARRETO RODRIGUIEZ Y ASOCIADOS LTDA</d:nombreconstructora>
+    <d:departamento>TOLIMA</d:departamento>
+    <d:ciudad>ESPINAL</d:ciudad>
+    <d:localidadozona />
+    <d:direccionsedeprincipalconstructora>AV SUBA No 115-58 OFICINA 318 TORRE B</d:direccionsedeprincipalconstructora>
+    <d:nitconstructora>8000407000</d:nitconstructora>
+    <d:nombrerepresentante_legalconstructora>GERMAN BARRETO RODRIGUEZ</d:nombrerepresentante_legalconstructora>
+    <d:nombrecontactoconstructora>LILIANA MEJIA ORTIZ</d:nombrecontactoconstructora>
+    <d:telefonocontacto_constructora>8053484 - 3123063665</d:telefonocontacto_constructora>
+    <d:email_constructora>gerencia@gbryaso.com</d:email_constructora>
+    <d:direccionsala_deventas>CRA 5A No 2E - 13</d:direccionsala_deventas>
+    <d:telefono_fijo_sala_de_ventas />
+    <d:telefono_celular_sala_de_ventas>3123063665</d:telefono_celular_sala_de_ventas>
+    <d:nombrecontacto_saladeventas>MARIA ISABEL ARIAS</d:nombrecontacto_saladeventas>
+    <d:diadeatencion_desde>LUNES</d:diadeatencion_desde>
+    <d:diadeatencion_hasta>SÁBADO</d:diadeatencion_hasta>
+    <d:horadeatencion_desde>8:30 AM</d:horadeatencion_desde>
+    <d:horadeatencion_hasta>5:00 PM</d:horadeatencion_hasta>
+    <d:tipode_inmueble_ofrecido>APARTAMENTO</d:tipode_inmueble_ofrecido>
+	
+	<d:latitud>4.155162</d:latitud>
+	<d:longitud>-74.874070</d:longitud>
+	
+	 
+		<link1>imagenes/1.jpg</link1>
+		<link2>imagenes/2.jpg</link2>
+		<link3>imagenes/3.jpg</link3>
+		<link4>imagenes/4.jpg</link4>
+		<link5>imagenes/5.jpg</link5>
+	 
+	
+    <d:cantidad_de_inmuebles_disponibles>10</d:cantidad_de_inmuebles_disponibles>
+    <d:acabados>TERMINADO</d:acabados>
+    <d:caracteristicas_proyecto>AREAS TERMINADAS</d:caracteristicas_proyecto>
+    <d:estrato>3</d:estrato>
+    <d:clase_de_vivienda>VIS</d:clase_de_vivienda>
+    <d:aplica_subsidio>SI</d:aplica_subsidio>
+    <d:fechade_entrega>DICIEMBRE DE 2013</d:fechade_entrega>
+    <d:estadoobra>CONSTRUCCION</d:estadoobra>
+  </m:properties></content></entry>
+  <entry><id></id><title type='text'/><updated></updated><author><name/></author><link rel='edit'/><category scheme='http://schemas.microsoft.com/ado/2007/08/dataservices/scheme'/><content type='application/xml'><m:properties>
+    <d:PartitionKey>1BD1B73B-F455-4822-9847-4C9B6876D787</d:PartitionKey>
+    <d:RowKey>17CF87A4-01CB-472E-85F2-1959DC9DE827</d:RowKey>
+    <d:nombreproyecto>San Sebastian</d:nombreproyecto>
+    <d:direccionproyecto>Cra 3 No. 1B-60</d:direccionproyecto>
+    <d:barrio>El Triunfo</d:barrio>
+    <d:preciodesde>68400000</d:preciodesde>
+    <d:preciohasta>70400000</d:preciohasta>
+    <d:areadesde>55</d:areadesde>
+    <d:areahasta>55</d:areahasta>
+    <d:nombreconstructora>INACAR S.C.A.</d:nombreconstructora>
+    <d:departamento>CUNDINAMARCA</d:departamento>
+    <d:ciudad>BOGOTA</d:ciudad>
+    <d:localidadozona>CENTRO - BOGOTA</d:localidadozona>
+    <d:direccionsedeprincipalconstructora>Calle 94A No. 11A-73 Piso 6</d:direccionsedeprincipalconstructora>
+    <d:nitconstructora>8000860420</d:nitconstructora>
+    <d:nombrerepresentante_legalconstructora>Camilo Hernandez</d:nombrerepresentante_legalconstructora>
+    <d:nombrecontactoconstructora>Johanna Figueroa</d:nombrecontactoconstructora>
+    <d:telefonocontacto_constructora>6236675</d:telefonocontacto_constructora>
+    <d:email_constructora>johanafigueroa@inacar.com</d:email_constructora>
+    <d:direccionsala_deventas>Cra 3 No. 1B-60</d:direccionsala_deventas>
+    <d:telefono_fijo_sala_de_ventas>2896607</d:telefono_fijo_sala_de_ventas>
+    <d:telefono_celular_sala_de_ventas>3132106180</d:telefono_celular_sala_de_ventas>
+    <d:nombrecontacto_saladeventas>Catalina Diaz</d:nombrecontacto_saladeventas>
+    <d:diadeatencion_desde>LUNES</d:diadeatencion_desde>
+    <d:diadeatencion_hasta>DOMINGO</d:diadeatencion_hasta>
+    <d:horadeatencion_desde>9:00 AM</d:horadeatencion_desde>
+    <d:horadeatencion_hasta>4:00 PM</d:horadeatencion_hasta>
+    <d:tipode_inmueble_ofrecido>APARTAMENTO</d:tipode_inmueble_ofrecido>
+	
+	<d:latitud>4.582719</d:latitud>
+	<d:longitud>-74.078262</d:longitud>
+	
+	 
+		<link1>imagenes/1.jpg</link1>
+		<link2>imagenes/2.jpg</link2>
+		<link3>imagenes/3.jpg</link3>
+		<link4>imagenes/4.jpg</link4>
+		<link5>imagenes/5.jpg</link5>
+	 
+	
+    <d:cantidad_de_inmuebles_disponibles>216</d:cantidad_de_inmuebles_disponibles>
+    <d:acabados>OBRA GRIS</d:acabados>
+    <d:caracteristicas_proyecto />
+    <d:estrato>2</d:estrato>
+    <d:clase_de_vivienda>VIS</d:clase_de_vivienda>
+    <d:aplica_subsidio>SI</d:aplica_subsidio>
+    <d:fechade_entrega>Marzo de 2013</d:fechade_entrega>
+    <d:estadoobra>OBRA GRIS</d:estadoobra>
+  </m:properties></content></entry>
+  <entry><id></id><title type='text'/><updated></updated><author><name/></author><link rel='edit'/><category scheme='http://schemas.microsoft.com/ado/2007/08/dataservices/scheme'/><content type='application/xml'><m:properties>
+    <d:PartitionKey>AF04716A-AF30-49BC-9CF4-EEE0A4021427</d:PartitionKey>
+    <d:RowKey>EBD6F181-AA70-42E1-A4DF-BE77A62529DC</d:RowKey>
+    <d:nombreproyecto>Villa Italia</d:nombreproyecto>
+    <d:direccionproyecto>SOACHA KM 2 VIA INDUMIL</d:direccionproyecto>
+    <d:barrio>CIUDAD LATINA</d:barrio>
+    <d:preciodesde>52500000</d:preciodesde>
+    <d:preciohasta>53600000</d:preciohasta>
+    <d:areadesde>63</d:areadesde>
+    <d:areahasta>63</d:areahasta>
+    <d:nombreconstructora>INACAR S.C.A.</d:nombreconstructora>
+    <d:departamento>CUNDINAMARCA</d:departamento>
+    <d:ciudad>BOGOTA</d:ciudad>
+    <d:localidadozona>SUR - BOGOTA</d:localidadozona>
+    <d:direccionsedeprincipalconstructora>Calle 94A No. 11A-73 Piso 7</d:direccionsedeprincipalconstructora>
+    <d:nitconstructora>800086042-1</d:nitconstructora>
+    <d:nombrerepresentante_legalconstructora>Camilo Hernandez</d:nombrerepresentante_legalconstructora>
+    <d:nombrecontactoconstructora>Johanna Figueroa</d:nombrecontactoconstructora>
+    <d:telefonocontacto_constructora>6236676</d:telefonocontacto_constructora>
+    <d:email_constructora>johanafigueroa@inacar.com</d:email_constructora>
+    <d:direccionsala_deventas>SOACHA KM 2 VIA INDUMIL</d:direccionsala_deventas>
+    <d:telefono_fijo_sala_de_ventas>732 7329</d:telefono_fijo_sala_de_ventas>
+    <d:telefono_celular_sala_de_ventas>312 482 9203</d:telefono_celular_sala_de_ventas>
+    <d:nombrecontacto_saladeventas>SANDRA  RODRIGUEZ</d:nombrecontacto_saladeventas>
+    <d:diadeatencion_desde>LUNES</d:diadeatencion_desde>
+    <d:diadeatencion_hasta>DOMINGO</d:diadeatencion_hasta>
+    <d:horadeatencion_desde>9:00 AM</d:horadeatencion_desde>
+    <d:horadeatencion_hasta>4:00 PM</d:horadeatencion_hasta>
+    <d:tipode_inmueble_ofrecido>CASA</d:tipode_inmueble_ofrecido>
+	
+	<d:latitud>4.579034</d:latitud>
+	<d:longitud>-74.239417</d:longitud>
+	
+	 
+		<link1>imagenes/1.jpg</link1>
+		<link2>imagenes/2.jpg</link2>
+		<link3>imagenes/3.jpg</link3>
+		<link4>imagenes/4.jpg</link4>
+		<link5>imagenes/5.jpg</link5>
+	
+    <d:cantidad_de_inmuebles_disponibles>400</d:cantidad_de_inmuebles_disponibles>
+    <d:acabados>OBRA GRIS</d:acabados>
+    <d:caracteristicas_proyecto></d:caracteristicas_proyecto>
+    <d:estrato>2</d:estrato>
+    <d:clase_de_vivienda>VIS</d:clase_de_vivienda>
+    <d:aplica_subsidio>SI</d:aplica_subsidio>
+    <d:fechade_entrega>Abril 30 de 2013</d:fechade_entrega>
+    <d:estadoobra>OBRA GRIS</d:estadoobra>
+  </m:properties></content></entry>
+  <entry><id></id><title type='text'/><updated></updated><author><name/></author><link rel='edit'/><category scheme='http://schemas.microsoft.com/ado/2007/08/dataservices/scheme'/><content type='application/xml'><m:properties>
+    <d:PartitionKey>F7DC3AD6-C6C7-49A6-AC5E-CE2161783E74</d:PartitionKey>
+    <d:RowKey>F40F82CA-8508-4C2B-81F6-303F0E88814C</d:RowKey>
+    <d:nombreproyecto>Massalia 126</d:nombreproyecto>
+    <d:direccionproyecto>CALLE 126 No. 7-70</d:direccionproyecto>
+    <d:barrio>MASSALIA 126</d:barrio>
+    <d:preciodesde>223680000</d:preciodesde>
+    <d:preciohasta>695000000</d:preciohasta>
+    <d:areadesde>49</d:areadesde>
+    <d:areahasta>118</d:areahasta>
+    <d:nombreconstructora>CONSTRUCTORES ASOCIADOS SAM S.A.S.</d:nombreconstructora>
+    <d:departamento>CUNDINAMARCA</d:departamento>
+    <d:ciudad>BOGOTA</d:ciudad>
+    <d:localidadozona>NORTE - BOGOTA</d:localidadozona>
+    <d:direccionsedeprincipalconstructora>Calle 68 N. 23 - 48</d:direccionsedeprincipalconstructora>
+    <d:nitconstructora>900.166.368-2</d:nitconstructora>
+    <d:nombrerepresentante_legalconstructora>LILIANA ADAME  ERAZO</d:nombrerepresentante_legalconstructora>
+    <d:nombrecontactoconstructora>LILIANA ADAME ERAZO</d:nombrecontactoconstructora>
+    <d:telefonocontacto_constructora>5405261/ 3106099878</d:telefonocontacto_constructora>
+    <d:email_constructora>ventasmassalia126@gmail.com</d:email_constructora>
+    <d:direccionsala_deventas>Calle 126 N. 7- 70</d:direccionsala_deventas>
+    <d:telefono_fijo_sala_de_ventas>6291250</d:telefono_fijo_sala_de_ventas>
+    <d:telefono_celular_sala_de_ventas>3104768307</d:telefono_celular_sala_de_ventas>
+    <d:nombrecontacto_saladeventas>YANETH BARBOSA VARGAS</d:nombrecontacto_saladeventas>
+    <d:diadeatencion_desde>LUNES</d:diadeatencion_desde>
+    <d:diadeatencion_hasta>DOMINGO</d:diadeatencion_hasta>
+    <d:horadeatencion_desde>10:00 AM</d:horadeatencion_desde>
+    <d:horadeatencion_hasta>5:00 PM</d:horadeatencion_hasta>
+    <d:tipode_inmueble_ofrecido>APARTAMENTO</d:tipode_inmueble_ofrecido>
+	
+	<d:latitud>4.700799</d:latitud>
+	<d:longitud>-74.028818</d:longitud>
+	
+	 
+		<link1>imagenes/1.jpg</link1>
+		<link2>imagenes/2.jpg</link2>
+		<link3>imagenes/3.jpg</link3>
+		<link4>imagenes/4.jpg</link4>
+		<link5>imagenes/5.jpg</link5>
+	
+    <d:cantidad_de_inmuebles_disponibles>47</d:cantidad_de_inmuebles_disponibles>
+    <d:acabados>acabados de lujo</d:acabados>
+    <d:caracteristicas_proyecto />
+    <d:estrato>5</d:estrato>
+    <d:clase_de_vivienda>NO VIS</d:clase_de_vivienda>
+    <d:aplica_subsidio>No</d:aplica_subsidio>
+    <d:fechade_entrega>Junio 30 de 2014</d:fechade_entrega>
+    <d:estadoobra>PREVENTAS</d:estadoobra>
+  </m:properties></content></entry>
+  <entry><id></id><title type='text'/><updated></updated><author><name/></author><link rel='edit'/><category scheme='http://schemas.microsoft.com/ado/2007/08/dataservices/scheme'/><content type='application/xml'><m:properties>
+    <d:PartitionKey>AC0CD20F-99EE-478C-A84A-FA196B54A255</d:PartitionKey>
+    <d:RowKey>BFC66E28-4DFB-484F-9753-82D1A312EA2B</d:RowKey>
+    <d:nombreproyecto>Jardines</d:nombreproyecto>
+    <d:direccionproyecto>CALLE 44C # 91-54</d:direccionproyecto>
+    <d:barrio>LA FLORESTA</d:barrio>
+    <d:preciodesde>87600000</d:preciodesde>
+    <d:preciohasta>97600000</d:preciohasta>
+    <d:areadesde>50</d:areadesde>
+    <d:areahasta>57</d:areahasta>
+    <d:nombreconstructora>MOVINCO S.A.S</d:nombreconstructora>
+    <d:departamento>ANTIOQUIA</d:departamento>
+    <d:ciudad>MEDELLIN</d:ciudad>
+    <d:localidadozona>LA FLORESTA</d:localidadozona>
+    <d:direccionsedeprincipalconstructora>CALLE 36 SUR No. 35-46</d:direccionsedeprincipalconstructora>
+    <d:nitconstructora>800197837-5</d:nitconstructora>
+    <d:nombrerepresentante_legalconstructora>MAURICIO VILLEGAS PELAEZ</d:nombrerepresentante_legalconstructora>
+    <d:nombrecontactoconstructora>MAURICIO VILLEGAS PELAEZ</d:nombrecontactoconstructora>
+    <d:telefonocontacto_constructora>3336337-3336342</d:telefonocontacto_constructora>
+    <d:email_constructora>movinco@une.net.co</d:email_constructora>
+    <d:direccionsala_deventas>CALLE 44C # 91-54</d:direccionsala_deventas>
+    <d:telefono_fijo_sala_de_ventas>5835991</d:telefono_fijo_sala_de_ventas>
+    <d:telefono_celular_sala_de_ventas>3218519279</d:telefono_celular_sala_de_ventas>
+    <d:nombrecontacto_saladeventas>MARCELA ORTIZ</d:nombrecontacto_saladeventas>
+    <d:diadeatencion_desde>LUNES</d:diadeatencion_desde>
+    <d:diadeatencion_hasta>SABADO</d:diadeatencion_hasta>
+    <d:horadeatencion_desde>9:00 AM</d:horadeatencion_desde>
+    <d:horadeatencion_hasta>5:00 PM</d:horadeatencion_hasta>
+    <d:tipode_inmueble_ofrecido>APARTAMENTO</d:tipode_inmueble_ofrecido>
+	
+	<d:latitud>6.254994</d:latitud>
+	<d:longitud>-75.608160</d:longitud>
+	
+	 
+		<link1>imagenes/1.jpg</link1>
+		<link2>imagenes/2.jpg</link2>
+		<link3>imagenes/3.jpg</link3>
+		<link4>imagenes/4.jpg</link4>
+		<link5>imagenes/5.jpg</link5>
+	 
+	
+    <d:cantidad_de_inmuebles_disponibles>120</d:cantidad_de_inmuebles_disponibles>
+    <d:acabados>OBRA GRIS</d:acabados>
+    <d:caracteristicas_proyecto></d:caracteristicas_proyecto>
+    <d:estrato>3</d:estrato>
+    <d:clase_de_vivienda>NO VIS</d:clase_de_vivienda>
+    <d:aplica_subsidio>NO</d:aplica_subsidio>
+    <d:fechade_entrega>Agosto 30 de 2012</d:fechade_entrega>
+    <d:estadoobra>TERMINADO</d:estadoobra>
+  </m:properties></content></entry>
+  <entry><id></id><title type='text'/><updated></updated><author><name/></author><link rel='edit'/><category scheme='http://schemas.microsoft.com/ado/2007/08/dataservices/scheme'/><content type='application/xml'><m:properties>
+    <d:PartitionKey>9FDBC30F-B312-4E33-8358-BF03FB0E5F02</d:PartitionKey>
+    <d:RowKey>21963CDE-A227-47A7-B2AA-04920EA3E644</d:RowKey>
+    <d:nombreproyecto>Terrazas de San Angel</d:nombreproyecto>
+    <d:direccionproyecto>Cll 162 # 5A-15</d:direccionproyecto>
+    <d:barrio>San Cristobal Norte</d:barrio>
+    <d:preciodesde>79565000</d:preciodesde>
+    <d:preciohasta>109000000</d:preciohasta>
+    <d:areadesde>58</d:areadesde>
+    <d:areahasta>64</d:areahasta>
+    <d:nombreconstructora>MyH Ingenieros SA</d:nombreconstructora>
+    <d:departamento>BOGOTA</d:departamento>
+    <d:ciudad>BOGOTA</d:ciudad>
+    <d:localidadozona>NORTE - BOGOTA</d:localidadozona>
+    <d:direccionsedeprincipalconstructora>Calle 125 # 53-17</d:direccionsedeprincipalconstructora>
+    <d:nitconstructora>830040332-2</d:nitconstructora>
+    <d:nombrerepresentante_legalconstructora>Juan Guillermos Muñoz</d:nombrerepresentante_legalconstructora>
+    <d:nombrecontactoconstructora>Yulman Navarro Tovar</d:nombrecontactoconstructora>
+    <d:telefonocontacto_constructora>2536224</d:telefonocontacto_constructora>
+    <d:email_constructora>info@myhingenieros.com.co</d:email_constructora>
+    <d:direccionsala_deventas>Cll 162# 5A-15</d:direccionsala_deventas>
+    <d:telefono_fijo_sala_de_ventas>6782236</d:telefono_fijo_sala_de_ventas>
+    <d:telefono_celular_sala_de_ventas>3143314128</d:telefono_celular_sala_de_ventas>
+    <d:nombrecontacto_saladeventas>Francy Ladino Gutierrez</d:nombrecontacto_saladeventas>
+    <d:diadeatencion_desde>LUNES</d:diadeatencion_desde>
+    <d:diadeatencion_hasta>DOMINGO</d:diadeatencion_hasta>
+    <d:horadeatencion_desde>9:30 AM</d:horadeatencion_desde>
+    <d:horadeatencion_hasta>4:30 PM</d:horadeatencion_hasta>
+    <d:tipode_inmueble_ofrecido>APARTAMENTO</d:tipode_inmueble_ofrecido>
+	
+	<d:latitud>4.736565</d:latitud>
+	<d:longitud>-74.022078</d:longitud>
+	
+	 
+		<link1>imagenes/1.jpg</link1>
+		<link2>imagenes/2.jpg</link2>
+		<link3>imagenes/3.jpg</link3>
+		<link4>imagenes/4.jpg</link4>
+		<link5>imagenes/5.jpg</link5>
+	
+    <d:cantidad_de_inmuebles_disponibles>9</d:cantidad_de_inmuebles_disponibles>
+    <d:acabados>OBRA GRIS</d:acabados>
+    <d:caracteristicas_proyecto>EN CONJUNTO CERRADO</d:caracteristicas_proyecto>
+    <d:estrato>3</d:estrato>
+    <d:clase_de_vivienda>NO VIS</d:clase_de_vivienda>
+    <d:aplica_subsidio>NO</d:aplica_subsidio>
+    <d:fechade_entrega>Diciembre 31 de 2013</d:fechade_entrega>
+    <d:estadoobra>OBRA GRIS</d:estadoobra>
+  </m:properties></content></entry>
+  <entry><id></id><title type='text'/><updated></updated><author><name/></author><link rel='edit'/><category scheme='http://schemas.microsoft.com/ado/2007/08/dataservices/scheme'/><content type='application/xml'><m:properties>
+    <d:PartitionKey>5F5EB7A7-8943-4CA6-B3A1-F68BA50E44CC</d:PartitionKey>
+    <d:RowKey>4D6409F8-86D9-4535-821D-000A220BED42</d:RowKey>
+    <d:nombreproyecto>Terrazas de San Angel Tipo A</d:nombreproyecto>
+    <d:direccionproyecto>Cll 162 # 5A-15</d:direccionproyecto>
+    <d:barrio>San Cristobal Norte</d:barrio>
+    <d:preciodesde>90000000</d:preciodesde>
+    <d:preciohasta>135000000</d:preciohasta>
+    <d:areadesde>64</d:areadesde>
+    <d:areahasta>110</d:areahasta>
+    <d:nombreconstructora>MyH Ingenieros SA</d:nombreconstructora>
+    <d:departamento>BOGOTA</d:departamento>
+    <d:ciudad>BOGOTA</d:ciudad>
+    <d:localidadozona>NORTE - BOGOTA</d:localidadozona>
+    <d:direccionsedeprincipalconstructora>Calle 125 # 53-17</d:direccionsedeprincipalconstructora>
+    <d:nitconstructora>830040332-2</d:nitconstructora>
+    <d:nombrerepresentante_legalconstructora>Juan Guillermos Muñoz</d:nombrerepresentante_legalconstructora>
+    <d:nombrecontactoconstructora>Yulman Navarro Tovar</d:nombrecontactoconstructora>
+    <d:telefonocontacto_constructora>2536224</d:telefonocontacto_constructora>
+    <d:email_constructora>info@myhingenieros.com.co</d:email_constructora>
+    <d:direccionsala_deventas>Cll 162# 5A-15</d:direccionsala_deventas>
+    <d:telefono_fijo_sala_de_ventas>6782236</d:telefono_fijo_sala_de_ventas>
+    <d:telefono_celular_sala_de_ventas>3143314128</d:telefono_celular_sala_de_ventas>
+    <d:nombrecontacto_saladeventas>Francy Ladino Gutierrez</d:nombrecontacto_saladeventas>
+    <d:diadeatencion_desde>LUNES</d:diadeatencion_desde>
+    <d:diadeatencion_hasta>DOMINGO</d:diadeatencion_hasta>
+    <d:horadeatencion_desde>9:30 AM</d:horadeatencion_desde>
+    <d:horadeatencion_hasta>4:30 PM</d:horadeatencion_hasta>
+    <d:tipode_inmueble_ofrecido>APARTAMENTO</d:tipode_inmueble_ofrecido>
+	
+	<d:latitud>4.736565</d:latitud>
+	<d:longitud>-74.022078</d:longitud>
+	
+	 
+		<link1>imagenes/1.jpg</link1>
+		<link2>imagenes/2.jpg</link2>
+		<link3>imagenes/3.jpg</link3>
+		<link4>imagenes/4.jpg</link4>
+		<link5>imagenes/5.jpg</link5>
+	 
+	
+   <d:cantidad_de_inmuebles_disponibles>25</d:cantidad_de_inmuebles_disponibles>
+    <d:acabados>OBRA GRIS</d:acabados>
+    <d:caracteristicas_proyecto>EN CONJUNTO CERRADO</d:caracteristicas_proyecto>
+    <d:estrato>3</d:estrato>
+    <d:clase_de_vivienda>NO VIS</d:clase_de_vivienda>
+    <d:aplica_subsidio>NO</d:aplica_subsidio>
+    <d:fechade_entrega>Diciembre 31 de 2013</d:fechade_entrega>
+    <d:estadoobra>OBRA GRIS</d:estadoobra>
+  </m:properties></content></entry>
+  <entry><id></id><title type='text'/><updated></updated><author><name/></author><link rel='edit'/><category scheme='http://schemas.microsoft.com/ado/2007/08/dataservices/scheme'/><content type='application/xml'><m:properties>
+    <d:PartitionKey>69D80209-6BDA-4AE2-8BCE-1D107172F611</d:PartitionKey>
+    <d:RowKey>10B6F1DE-FA6A-4598-BD8A-D219AB49F071</d:RowKey>
+    <d:nombreproyecto>Terrazas de San Angel Tipo B</d:nombreproyecto>
+    <d:direccionproyecto>Cll 162 # 5A-15</d:direccionproyecto>
+    <d:barrio>San Cristobal Norte</d:barrio>
+    <d:preciodesde>110000000</d:preciodesde>
+    <d:preciohasta>140000000</d:preciohasta>
+    <d:areadesde>64</d:areadesde>
+    <d:areahasta>110</d:areahasta>
+    <d:nombreconstructora>MyH Ingenieros SA</d:nombreconstructora>
+    <d:departamento>BOGOTA</d:departamento>
+    <d:ciudad>BOGOTA</d:ciudad>
+    <d:localidadozona>NORTE - BOGOTA</d:localidadozona>
+    <d:direccionsedeprincipalconstructora>Calle 125 # 53-17</d:direccionsedeprincipalconstructora>
+    <d:nitconstructora>830040332-2</d:nitconstructora>
+    <d:nombrerepresentante_legalconstructora>Juan Guillermos Muñoz</d:nombrerepresentante_legalconstructora>
+    <d:nombrecontactoconstructora>Yulman Navarro Tovar</d:nombrecontactoconstructora>
+    <d:telefonocontacto_constructora>2536224</d:telefonocontacto_constructora>
+    <d:email_constructora>info@myhingenieros.com.co</d:email_constructora>
+    <d:direccionsala_deventas>Cll 162# 5A-15</d:direccionsala_deventas>
+    <d:telefono_fijo_sala_de_ventas>6782236</d:telefono_fijo_sala_de_ventas>
+    <d:telefono_celular_sala_de_ventas>3143314128</d:telefono_celular_sala_de_ventas>
+    <d:nombrecontacto_saladeventas>Francy Ladino Gutierrez</d:nombrecontacto_saladeventas>
+    <d:diadeatencion_desde>LUNES</d:diadeatencion_desde>
+    <d:diadeatencion_hasta>DOMINGO</d:diadeatencion_hasta>
+    <d:horadeatencion_desde>9:30 AM</d:horadeatencion_desde>
+    <d:horadeatencion_hasta>4:30 PM</d:horadeatencion_hasta>
+    <d:tipode_inmueble_ofrecido>APARTAMENTO</d:tipode_inmueble_ofrecido>
+	
+	<d:latitud>4.736565</d:latitud>
+	<d:longitud>-74.022078</d:longitud>
+	
+	 
+		<link1>imagenes/1.jpg</link1>
+		<link2>imagenes/2.jpg</link2>
+		<link3>imagenes/3.jpg</link3>
+		<link4>imagenes/4.jpg</link4>
+		<link5>imagenes/5.jpg</link5>
+	 
+	
+   <d:cantidad_de_inmuebles_disponibles>25</d:cantidad_de_inmuebles_disponibles>
+    <d:acabados>OBRA GRIS</d:acabados>
+    <d:caracteristicas_proyecto>EN CONJUNTO CERRADO</d:caracteristicas_proyecto>
+    <d:estrato>3</d:estrato>
+    <d:clase_de_vivienda>NO VIS</d:clase_de_vivienda>
+    <d:aplica_subsidio>NO</d:aplica_subsidio>
+    <d:fechade_entrega>Diciembre 31 de 2013</d:fechade_entrega>
+    <d:estadoobra>OBRA GRIS</d:estadoobra>
+  </m:properties></content></entry>
+  <entry><id></id><title type='text'/><updated></updated><author><name/></author><link rel='edit'/><category scheme='http://schemas.microsoft.com/ado/2007/08/dataservices/scheme'/><content type='application/xml'><m:properties>
+    <d:PartitionKey>52DD8025-6E50-49AF-885E-10B1B4F6848B</d:PartitionKey>
+    <d:RowKey>C0A10DC3-29E6-4622-A48A-6D5C7213F233</d:RowKey>
+    <d:nombreproyecto>PORTAL DE SAN JACINTO</d:nombreproyecto>
+    <d:direccionproyecto>Cra 28 No. 36 - 44</d:direccionproyecto>
+    <d:barrio>Samaria 1</d:barrio>
+    <d:preciodesde>56000000</d:preciodesde>
+    <d:preciohasta>72000000</d:preciohasta>
+    <d:areadesde>58</d:areadesde>
+    <d:areahasta>66</d:areahasta>
+    <d:nombreconstructora>PORTAL DE SAN JACINTO S.A.S.</d:nombreconstructora>
+    <d:departamento>RISARALDA</d:departamento>
+    <d:ciudad>PEREIRA</d:ciudad>
+    <d:localidadozona>ZONA URBANA - RISARALDA</d:localidadozona>
+    <d:direccionsedeprincipalconstructora>Cll 23 No. 8 - 06 OF. 501  Ed. Camara de Comercio</d:direccionsedeprincipalconstructora>
+    <d:nitconstructora>9004921794</d:nitconstructora>
+    <d:nombrerepresentante_legalconstructora>LUIS CARLOS LOPEZ HERRERA</d:nombrerepresentante_legalconstructora>
+    <d:nombrecontactoconstructora>LUIS CARLOS LOPEZ HERRERA</d:nombrecontactoconstructora>
+    <d:telefonocontacto_constructora>3400869</d:telefonocontacto_constructora>
+    <d:email_constructora>lopezingciviles@hotmail.com</d:email_constructora>
+    <d:direccionsala_deventas>Cll 23 No. 8- 06 Ofc. 501</d:direccionsala_deventas>
+    <d:telefono_fijo_sala_de_ventas>3400869</d:telefono_fijo_sala_de_ventas>
+    <d:telefono_celular_sala_de_ventas>3400870</d:telefono_celular_sala_de_ventas>
+    <d:nombrecontacto_saladeventas>JULIAN ANDRES LARGO</d:nombrecontacto_saladeventas>
+    <d:diadeatencion_desde>LUNES</d:diadeatencion_desde>
+    <d:diadeatencion_hasta>VIERNES</d:diadeatencion_hasta>
+    <d:horadeatencion_desde>8:00 AM</d:horadeatencion_desde>
+    <d:horadeatencion_hasta>6:00 PM</d:horadeatencion_hasta>
+    <d:tipode_inmueble_ofrecido>CASA</d:tipode_inmueble_ofrecido>
+	
+	<d:latitud>4.799367</d:latitud>
+	<d:longitud>-75.714101</d:longitud>
+	
+	 
+		<link1>imagenes/1.jpg</link1>
+		<link2>imagenes/2.jpg</link2>
+		<link3>imagenes/3.jpg</link3>
+		<link4>imagenes/4.jpg</link4>
+		<link5>imagenes/5.jpg</link5>
+	
+    <d:cantidad_de_inmuebles_disponibles>108</d:cantidad_de_inmuebles_disponibles>
+    <d:acabados>ACABADOS DE LUJO</d:acabados>
+    <d:caracteristicas_proyecto>AREAS TERMINADAS</d:caracteristicas_proyecto>
+    <d:estrato>3</d:estrato>
+    <d:clase_de_vivienda>VIS</d:clase_de_vivienda>
+    <d:aplica_subsidio>SI</d:aplica_subsidio>
+    <d:fechade_entrega>Marzo 31 de 2013</d:fechade_entrega>
+    <d:estadoobra>TERMINADA</d:estadoobra>
+  </m:properties></content></entry>
+  <entry><id></id><title type='text'/><updated></updated><author><name/></author><link rel='edit'/><category scheme='http://schemas.microsoft.com/ado/2007/08/dataservices/scheme'/><content type='application/xml'><m:properties>
+    <d:PartitionKey>D006C794-2567-4E7A-B25F-92AD57AAECF9</d:PartitionKey>
+    <d:RowKey>6A3559CA-6F89-4DEA-969A-6977E402DE92</d:RowKey>
+    <d:nombreproyecto>Atalay del Recreo</d:nombreproyecto>
+    <d:direccionproyecto>CRA 89A BIS NO. 59C-15 SUR</d:direccionproyecto>
+    <d:barrio>BOSA EL RECREO</d:barrio>
+    <d:preciodesde>55000000</d:preciodesde>
+    <d:preciohasta>64000000</d:preciohasta>
+    <d:areadesde>37</d:areadesde>
+    <d:areahasta>43</d:areahasta>
+    <d:nombreconstructora>PROMOTORA EL TIBAR S.A.S.</d:nombreconstructora>
+    <d:departamento>CUNDINAMARCA</d:departamento>
+    <d:ciudad>BOGOTA</d:ciudad>
+    <d:localidadozona>OCCIDENTAL - BOGOTA</d:localidadozona>
+    <d:direccionsedeprincipalconstructora>CRA 11A NO 95-21</d:direccionsedeprincipalconstructora>
+    <d:nitconstructora>900.354.385-4</d:nitconstructora>
+    <d:nombrerepresentante_legalconstructora>CARLOS FERNANDO HURTADO</d:nombrerepresentante_legalconstructora>
+    <d:nombrecontactoconstructora>MARCELA MATUS</d:nombrecontactoconstructora>
+    <d:telefonocontacto_constructora>2561266- 621 6626</d:telefonocontacto_constructora>
+    <d:email_constructora>afajardo@londonogomez.com</d:email_constructora>
+    <d:direccionsala_deventas>CRA 89A BIS NO. 59C-15 SUR</d:direccionsala_deventas>
+    <d:telefono_fijo_sala_de_ventas>7833420</d:telefono_fijo_sala_de_ventas>
+    <d:telefono_celular_sala_de_ventas>3102142766</d:telefono_celular_sala_de_ventas>
+    <d:nombrecontacto_saladeventas>MARIA VICTORIA RESTREPO</d:nombrecontacto_saladeventas>
+    <d:diadeatencion_desde>LUNES</d:diadeatencion_desde>
+    <d:diadeatencion_hasta>DOMINGO</d:diadeatencion_hasta>
+    <d:horadeatencion_desde>9:30 AM</d:horadeatencion_desde>
+    <d:horadeatencion_hasta>5:00 PM</d:horadeatencion_hasta>
+    <d:tipode_inmueble_ofrecido>APARTAMENTO</d:tipode_inmueble_ofrecido>
+	
+	<d:latitud>4.628590</d:latitud>
+	<d:longitud>-74.192336</d:longitud>
+	
+	 
+		<link1>imagenes/1.jpg</link1>
+		<link2>imagenes/2.jpg</link2>
+		<link3>imagenes/3.jpg</link3>
+		<link4>imagenes/4.jpg</link4>
+		<link5>imagenes/5.jpg</link5>
+	 
+	
+    <d:cantidad_de_inmuebles_disponibles>61</d:cantidad_de_inmuebles_disponibles>
+    <d:acabados>OBRA GRIS</d:acabados>
+    <d:caracteristicas_proyecto>ASCENSOR</d:caracteristicas_proyecto>
+    <d:estrato>2</d:estrato>
+    <d:clase_de_vivienda>VIS</d:clase_de_vivienda>
+    <d:aplica_subsidio>SI</d:aplica_subsidio>
+    <d:fechade_entrega>Agosto de 2012</d:fechade_entrega>
+    <d:estadoobra>FINALIZANDO</d:estadoobra>
+  </m:properties></content></entry>
+  <entry><id></id><title type='text'/><updated></updated><author><name/></author><link rel='edit'/><category scheme='http://schemas.microsoft.com/ado/2007/08/dataservices/scheme'/><content type='application/xml'><m:properties>
+    <d:PartitionKey>5B9B4DF6-2AD5-4779-9C40-8A2707FE701C</d:PartitionKey>
+    <d:RowKey>3CB9E81C-BE98-40F9-9E47-59F8A80499AB</d:RowKey>
+    <d:nombreproyecto>Punta del Este</d:nombreproyecto>
+    <d:direccionproyecto>Cll 13 Sur No 10-75 Este</d:direccionproyecto>
+    <d:barrio>SAN CRISTOBAL SUR</d:barrio>
+    <d:preciodesde>73000000</d:preciodesde>
+    <d:preciohasta>78973000</d:preciohasta>
+    <d:areadesde>51</d:areadesde>
+    <d:areahasta>52</d:areahasta>
+    <d:nombreconstructora>URBANIZADORA BARILOCHE S.A.S.</d:nombreconstructora>
+    <d:departamento>CUNDINAMARCA</d:departamento>
+    <d:ciudad>BOGOTA</d:ciudad>
+    <d:localidadozona>SUR - BOGOTA</d:localidadozona>
+    <d:direccionsedeprincipalconstructora>Cll 93B No. 19 - 35 PISO 6</d:direccionsedeprincipalconstructora>
+    <d:nitconstructora>900339535-1</d:nitconstructora>
+    <d:nombrerepresentante_legalconstructora>GUILLERMO SALCEDO HERNANDEZ</d:nombrerepresentante_legalconstructora>
+    <d:nombrecontactoconstructora>RONALD SUAREZ COY</d:nombrecontactoconstructora>
+    <d:telefonocontacto_constructora>6352285-41</d:telefonocontacto_constructora>
+    <d:email_constructora>comercial.inmovel@gmail.com</d:email_constructora>
+    <d:direccionsala_deventas>Cll 13 Sur No 10-75 Este</d:direccionsala_deventas>
+    <d:telefono_fijo_sala_de_ventas>2460776</d:telefono_fijo_sala_de_ventas>
+    <d:telefono_celular_sala_de_ventas>3017009380</d:telefono_celular_sala_de_ventas>
+    <d:nombrecontacto_saladeventas>FERNANDO LEBOLO LANZZIANO</d:nombrecontacto_saladeventas>
+    <d:diadeatencion_desde>LUNES</d:diadeatencion_desde>
+    <d:diadeatencion_hasta>DOMINGO</d:diadeatencion_hasta>
+    <d:horadeatencion_desde>10:00 AM</d:horadeatencion_desde>
+    <d:horadeatencion_hasta>5:00 PM</d:horadeatencion_hasta>
+    <d:tipode_inmueble_ofrecido>APARTAMENTO</d:tipode_inmueble_ofrecido>
+	
+	<d:latitud>4.570877</d:latitud>
+	<d:longitud>-74.078911</d:longitud>
+	
+	 
+		<link1>imagenes/1.jpg</link1>
+		<link2>imagenes/2.jpg</link2>
+		<link3>imagenes/3.jpg</link3>
+		<link4>imagenes/4.jpg</link4>
+		<link5>imagenes/5.jpg</link5>
+	 
+	
+    <d:cantidad_de_inmuebles_disponibles>510</d:cantidad_de_inmuebles_disponibles>
+    <d:acabados>OBRA GRIS</d:acabados>
+    <d:caracteristicas_proyecto>AREA ZONA GRIS</d:caracteristicas_proyecto>
+    <d:estrato>2</d:estrato>
+    <d:clase_de_vivienda>VIS</d:clase_de_vivienda>
+    <d:aplica_subsidio>SI</d:aplica_subsidio>
+    <d:fechade_entrega>Noviembre 30 de 2012</d:fechade_entrega>
+    <d:estadoobra>OBRA GRIS</d:estadoobra>
+  </m:properties></content></entry>
+  <entry><id></id><title type='text'/><updated></updated><author><name/></author><link rel='edit'/><category scheme='http://schemas.microsoft.com/ado/2007/08/dataservices/scheme'/><content type='application/xml'><m:properties>
+    <d:PartitionKey>6F715B43-EE53-495D-8243-C735EB91B3DB</d:PartitionKey>
+    <d:RowKey>EA5CBDFC-BCA9-4CEC-8C82-9F83AC99C779</d:RowKey>
+    <d:nombreproyecto>Solsticio Parque Residencial</d:nombreproyecto>
+    <d:direccionproyecto>Carrera 123 # 14B-50</d:direccionproyecto>
+    <d:barrio>Fontibón</d:barrio>
+    <d:preciodesde>66300000</d:preciodesde>
+    <d:preciohasta>73900000</d:preciohasta>
+    <d:areadesde>44</d:areadesde>
+    <d:areahasta>50</d:areahasta>
+    <d:nombreconstructora>INCOL S.A.- LATERIZIO S.A.S</d:nombreconstructora>
+    <d:departamento>CUNDINAMARCA</d:departamento>
+    <d:ciudad>BOGOTA</d:ciudad>
+    <d:localidadozona>OCCIDENTAL - BOGOTA</d:localidadozona>
+    <d:direccionsedeprincipalconstructora>Carrera 8 No. 69-33</d:direccionsedeprincipalconstructora>
+    <d:nitconstructora>8600231860</d:nitconstructora>
+    <d:nombrerepresentante_legalconstructora>Carlos Pacheco Montes</d:nombrerepresentante_legalconstructora>
+    <d:nombrecontactoconstructora>Luz Mery Gallego M.</d:nombrecontactoconstructora>
+    <d:telefonocontacto_constructora>2554473 ext. 212</d:telefonocontacto_constructora>
+    <d:email_constructora>lmgallego@incol.com.co</d:email_constructora>
+    <d:direccionsala_deventas>Diagonal 16 # 119-35 (Sobre la calle 13)</d:direccionsala_deventas>
+    <d:telefono_fijo_sala_de_ventas>4213164</d:telefono_fijo_sala_de_ventas>
+    <d:telefono_celular_sala_de_ventas>3173630448</d:telefono_celular_sala_de_ventas>
+    <d:nombrecontacto_saladeventas>Jaime Fernández</d:nombrecontacto_saladeventas>
+    <d:diadeatencion_desde>LUNES</d:diadeatencion_desde>
+    <d:diadeatencion_hasta>DOMINGO</d:diadeatencion_hasta>
+    <d:horadeatencion_desde>9:00 AM</d:horadeatencion_desde>
+    <d:horadeatencion_hasta>5:00 PM</d:horadeatencion_hasta>
+    <d:tipode_inmueble_ofrecido>APARTAMENTO</d:tipode_inmueble_ofrecido>
+	
+	<d:latitud>4.684763</d:latitud>
+	<d:longitud>-74.157990</d:longitud>
+	
+	 
+		<link1>imagenes/1.jpg</link1>
+		<link2>imagenes/2.jpg</link2>
+		<link3>imagenes/3.jpg</link3>
+		<link4>imagenes/4.jpg</link4>
+		<link5>imagenes/5.jpg</link5>
+	 
+	
+    <d:cantidad_de_inmuebles_disponibles>236</d:cantidad_de_inmuebles_disponibles>
+    <d:acabados>OBRA GRIS</d:acabados>
+    <d:caracteristicas_proyecto>AREA ZONA GRIS</d:caracteristicas_proyecto>
+    <d:estrato>2</d:estrato>
+    <d:clase_de_vivienda>VIS</d:clase_de_vivienda>
+    <d:aplica_subsidio>SI</d:aplica_subsidio>
+    <d:fechade_entrega>OCTUBRE de 2013</d:fechade_entrega>
+    <d:estadoobra>PREVENTAS</d:estadoobra>
+  </m:properties></content></entry>
+  <entry><id></id><title type='text'/><updated></updated><author><name/></author><link rel='edit'/><category scheme='http://schemas.microsoft.com/ado/2007/08/dataservices/scheme'/><content type='application/xml'><m:properties>
+    <d:PartitionKey>45A04BC7-6A1D-4144-869E-9BA621FAEE63</d:PartitionKey>
+    <d:RowKey>A64880A0-38CF-4E60-80E5-42C2C3511E02</d:RowKey>
+    <d:nombreproyecto>Terra Quimbaya</d:nombreproyecto>
+    <d:direccionproyecto>Calle 11 con Carrera 34</d:direccionproyecto>
+    <d:barrio>Barrio Marruecos</d:barrio>
+    <d:preciodesde>45000000</d:preciodesde>
+    <d:preciohasta>76000000</d:preciohasta>
+    <d:areadesde>42</d:areadesde>
+    <d:areahasta>69</d:areahasta>
+    <d:nombreconstructora>AICA - ARICCO SAS</d:nombreconstructora>
+    <d:departamento>QUINDIO</d:departamento>
+    <d:ciudad>CALARCA</d:ciudad>
+    <d:localidadozona />
+    <d:direccionsedeprincipalconstructora>Cra. 13 No. 17-22 Piso 2</d:direccionsedeprincipalconstructora>
+    <d:nitconstructora>900560246-1</d:nitconstructora>
+    <d:nombrerepresentante_legalconstructora>Bernardo Hoyos Robledo</d:nombrerepresentante_legalconstructora>
+    <d:nombrecontactoconstructora>Claudia Rodriguez Osorio</d:nombrecontactoconstructora>
+    <d:telefonocontacto_constructora>3216392233</d:telefonocontacto_constructora>
+    <d:email_constructora>comercial@platinium.inmo.co</d:email_constructora>
+    <d:direccionsala_deventas>Calle 11 con Carrera 34 casa 2</d:direccionsala_deventas>
+    <d:telefono_fijo_sala_de_ventas>7424077</d:telefono_fijo_sala_de_ventas>
+    <d:telefono_celular_sala_de_ventas>3128617246</d:telefono_celular_sala_de_ventas>
+    <d:nombrecontacto_saladeventas>Yessica Días</d:nombrecontacto_saladeventas>
+    <d:diadeatencion_desde>LUNES</d:diadeatencion_desde>
+    <d:diadeatencion_hasta>DOMINGO</d:diadeatencion_hasta>
+    <d:horadeatencion_desde>9:00 AM</d:horadeatencion_desde>
+    <d:horadeatencion_hasta>5:00 PM</d:horadeatencion_hasta>
+    <d:tipode_inmueble_ofrecido>APARTAMENTO</d:tipode_inmueble_ofrecido>
+	
+	<d:latitud>4.537996</d:latitud>
+	<d:longitud>-75.641331</d:longitud>
+	
+	 
+		<link1>imagenes/1.jpg</link1>
+		<link2>imagenes/2.jpg</link2>
+		<link3>imagenes/3.jpg</link3>
+		<link4>imagenes/4.jpg</link4>
+		<link5>imagenes/5.jpg</link5>
+	 
+	
+    <d:cantidad_de_inmuebles_disponibles>65</d:cantidad_de_inmuebles_disponibles>
+    <d:acabados>TERMINADO</d:acabados>
+    <d:caracteristicas_proyecto>AREAS TERMINADAS</d:caracteristicas_proyecto>
+    <d:estrato>3</d:estrato>
+    <d:clase_de_vivienda>VIS</d:clase_de_vivienda>
+    <d:aplica_subsidio>SI</d:aplica_subsidio>
+    <d:fechade_entrega>Abril de 2013</d:fechade_entrega>
+    <d:estadoobra>CONSTRUCCION</d:estadoobra>
+  </m:properties></content></entry>
+  <entry><id></id><title type='text'/><updated></updated><author><name/></author><link rel='edit'/><category scheme='http://schemas.microsoft.com/ado/2007/08/dataservices/scheme'/><content type='application/xml'><m:properties>
+    <d:PartitionKey>BC1E34DA-FA77-4D6B-97FF-E3A3497D5C00</d:PartitionKey>
+    <d:RowKey>C304C34B-72FD-42D7-910D-FC4332449A3B</d:RowKey>
+    <d:nombreproyecto>Urbanización Terrazas de Cucuman</d:nombreproyecto>
+    <d:direccionproyecto>Ctra Troncal de Occidente</d:direccionproyecto>
+    <d:barrio>Km 90. Turbaco</d:barrio>
+    <d:preciodesde>130000000</d:preciodesde>
+    <d:preciohasta>170000000</d:preciohasta>
+    <d:areadesde>120</d:areadesde>
+    <d:areahasta>120</d:areahasta>
+    <d:nombreconstructora>Grupo Caribe Constructores 2011 Ltda</d:nombreconstructora>
+    <d:departamento>Bolivar</d:departamento>
+    <d:ciudad>Turbaco</d:ciudad>
+    <d:localidadozona>Centro Histórico</d:localidadozona>
+    <d:direccionsedeprincipalconstructora>Calle de Las Carretas 34-73</d:direccionsedeprincipalconstructora>
+    <d:nitconstructora>9004267775</d:nitconstructora>
+    <d:nombrerepresentante_legalconstructora>CINDY GOMEZ PEREZ</d:nombrerepresentante_legalconstructora>
+    <d:nombrecontactoconstructora>Hector Pulido</d:nombrecontactoconstructora>
+    <d:telefonocontacto_constructora>6685480</d:telefonocontacto_constructora>
+    <d:email_constructora>hpulido@brisasdecartagena.org</d:email_constructora>
+    <d:direccionsala_deventas>Km 90. Turbaco</d:direccionsala_deventas>
+    <d:telefono_fijo_sala_de_ventas></d:telefono_fijo_sala_de_ventas>
+    <d:telefono_celular_sala_de_ventas>3204527151</d:telefono_celular_sala_de_ventas>
+    <d:nombrecontacto_saladeventas>Hector E. Pulido</d:nombrecontacto_saladeventas>
+    <d:diadeatencion_desde>Lunes</d:diadeatencion_desde>
+    <d:diadeatencion_hasta>Domingo</d:diadeatencion_hasta>
+    <d:horadeatencion_desde>9:00 AM</d:horadeatencion_desde>
+    <d:horadeatencion_hasta>4:30 PM</d:horadeatencion_hasta>
+    <d:tipode_inmueble_ofrecido>CASA</d:tipode_inmueble_ofrecido>
+	
+	<d:latitud>10.327182</d:latitud>
+	<d:longitud>-75.404042</d:longitud>
+	
+	 
+		<link1>imagenes/1.jpg</link1>
+		<link2>imagenes/2.jpg</link2>
+		<link3>imagenes/3.jpg</link3>
+		<link4>imagenes/4.jpg</link4>
+		<link5>imagenes/5.jpg</link5>
+	 
+	
+    <d:cantidad_de_inmuebles_disponibles>450</d:cantidad_de_inmuebles_disponibles>
+    <d:acabados>Terminado</d:acabados>
+    <d:caracteristicas_proyecto></d:caracteristicas_proyecto>
+    <d:estrato>3</d:estrato>
+    <d:clase_de_vivienda>NO VIS</d:clase_de_vivienda>
+    <d:aplica_subsidio>NO</d:aplica_subsidio>
+    <d:fechade_entrega>Agosto 31 de 2013</d:fechade_entrega>
+    <d:estadoobra>TERMINADO</d:estadoobra>
+  </m:properties></content></entry>
+  <entry><id></id><title type='text'/><updated></updated><author><name/></author><link rel='edit'/><category scheme='http://schemas.microsoft.com/ado/2007/08/dataservices/scheme'/><content type='application/xml'><m:properties>
+    <d:PartitionKey>84E1BB5B-4455-4AEE-BC93-B9763550C43B</d:PartitionKey>
+    <d:RowKey>AED99E87-29CA-40E3-B67B-2403B3531FA4</d:RowKey>
+    <d:nombreproyecto>Torres de Santa Ana</d:nombreproyecto>
+    <d:direccionproyecto>Cra 8 No. 10 - 32 Sur - Soacha</d:direccionproyecto>
+    <d:barrio>Santa Ana - Soacha</d:barrio>
+    <d:preciodesde>47400000</d:preciodesde>
+    <d:preciohasta>60000000</d:preciohasta>
+    <d:areadesde>45</d:areadesde>
+    <d:areahasta>54</d:areahasta>
+    <d:nombreconstructora>VINDICO S.A</d:nombreconstructora>
+    <d:departamento>CUNDINAMARCA</d:departamento>
+    <d:ciudad>SOACHA</d:ciudad>
+    <d:localidadozona>SUR - BOGOTA</d:localidadozona>
+    <d:direccionsedeprincipalconstructora>Cll 93 No. 13 - 32 OF. 401</d:direccionsedeprincipalconstructora>
+    <d:nitconstructora>860523790-5</d:nitconstructora>
+    <d:nombrerepresentante_legalconstructora>ANTONIO PABON</d:nombrerepresentante_legalconstructora>
+    <d:nombrecontactoconstructora>MAURICIO PABON</d:nombrecontactoconstructora>
+    <d:telefonocontacto_constructora>6166400</d:telefonocontacto_constructora>
+    <d:email_constructora>vindico@etb.net.co</d:email_constructora>
+    <d:direccionsala_deventas>Cra 8 No. 10 - 32 Sur - Soacha</d:direccionsala_deventas>
+    <d:telefono_fijo_sala_de_ventas>7225913</d:telefono_fijo_sala_de_ventas>
+    <d:telefono_celular_sala_de_ventas>3106257429</d:telefono_celular_sala_de_ventas>
+    <d:nombrecontacto_saladeventas>CLAUDIA PABON</d:nombrecontacto_saladeventas>
+    <d:diadeatencion_desde>LUNES</d:diadeatencion_desde>
+    <d:diadeatencion_hasta>DOMINGO</d:diadeatencion_hasta>
+    <d:horadeatencion_desde>10:00 AM</d:horadeatencion_desde>
+    <d:horadeatencion_hasta>5:00 PM</d:horadeatencion_hasta>
+    <d:tipode_inmueble_ofrecido>APARTAMENTO</d:tipode_inmueble_ofrecido>
+	
+	<d:latitud>4.565473</d:latitud>
+	<d:longitud>-74.231064</d:longitud>
+	
+	 
+		<link1>imagenes/1.jpg</link1>
+		<link2>imagenes/2.jpg</link2>
+		<link3>imagenes/3.jpg</link3>
+		<link4>imagenes/4.jpg</link4>
+		<link5>imagenes/5.jpg</link5>
+	
+    <d:cantidad_de_inmuebles_disponibles>270</d:cantidad_de_inmuebles_disponibles>
+    <d:acabados>OBRA GRIS</d:acabados>
+    <d:caracteristicas_proyecto>AREAS TERMINADAS</d:caracteristicas_proyecto>
+    <d:estrato>2</d:estrato>
+    <d:clase_de_vivienda>VIS</d:clase_de_vivienda>
+    <d:aplica_subsidio>SI</d:aplica_subsidio>
+    <d:fechade_entrega>Diciembre 31 de 2013</d:fechade_entrega>
+    <d:estadoobra>OBRA GRIS</d:estadoobra>
+  </m:properties></content></entry>
+  <entry><id></id><title type='text'/><updated></updated><author><name/></author><link rel='edit'/><category scheme='http://schemas.microsoft.com/ado/2007/08/dataservices/scheme'/><content type='application/xml'><m:properties>
+    <d:PartitionKey>3D9DCFB5-565D-4455-8FD8-E3EFEDE1C115</d:PartitionKey>
+    <d:RowKey>3E210C1E-B7D1-43B0-8195-F1E559BCF81D</d:RowKey>
+    <d:nombreproyecto>Torres del Parque</d:nombreproyecto>
+    <d:direccionproyecto>Av. Terreros Calle 38 No. 1-50</d:direccionproyecto>
+    <d:barrio>SAN MATEO - SOACHA</d:barrio>
+    <d:preciodesde>74700000</d:preciodesde>
+    <d:preciohasta>78000000</d:preciohasta>
+    <d:areadesde>58</d:areadesde>
+    <d:areahasta>58</d:areahasta>
+    <d:nombreconstructora>VIVIENDA 2000</d:nombreconstructora>
+    <d:departamento>CUNDINAMARCA</d:departamento>
+    <d:ciudad>SOACHA</d:ciudad>
+    <d:localidadozona>SUR - BOGOTA</d:localidadozona>
+    <d:direccionsedeprincipalconstructora>Carrera 17 N. 93A - 38</d:direccionsedeprincipalconstructora>
+    <d:nitconstructora>800.188.129-0</d:nitconstructora>
+    <d:nombrerepresentante_legalconstructora>JOSE IGNACIO LIEVANO LASERNA</d:nombrerepresentante_legalconstructora>
+    <d:nombrecontactoconstructora>STELLA MORENO</d:nombrecontactoconstructora>
+    <d:telefonocontacto_constructora>6107210 - 6107014</d:telefonocontacto_constructora>
+    <d:email_constructora>smoreno@vivienda2000.com.co</d:email_constructora>
+    <d:direccionsala_deventas>Av. Terreros Calle 38 No. 1-50</d:direccionsala_deventas>
+    <d:telefono_fijo_sala_de_ventas>3590090</d:telefono_fijo_sala_de_ventas>
+    <d:telefono_celular_sala_de_ventas>3138833385</d:telefono_celular_sala_de_ventas>
+    <d:nombrecontacto_saladeventas>DIANA SEGURA</d:nombrecontacto_saladeventas>
+    <d:diadeatencion_desde>LUNES</d:diadeatencion_desde>
+    <d:diadeatencion_hasta>DOMINGO</d:diadeatencion_hasta>
+    <d:horadeatencion_desde>9:30 AM</d:horadeatencion_desde>
+    <d:horadeatencion_hasta>5:00 PM</d:horadeatencion_hasta>
+    <d:tipode_inmueble_ofrecido>APARTAMENTO</d:tipode_inmueble_ofrecido>
+	
+	<d:latitud>4.586704</d:latitud>
+	<d:longitud>-74.195690</d:longitud>
+	
+	 
+	<link1>imagenes/1.jpg</link1>
+		<link2>imagenes/2.jpg</link2>
+		<link3>imagenes/3.jpg</link3>
+		<link4>imagenes/4.jpg</link4>
+		<link5>imagenes/5.jpg</link5>
+	 
+	
+    <d:cantidad_de_inmuebles_disponibles>112</d:cantidad_de_inmuebles_disponibles>
+    <d:acabados />
+    <d:caracteristicas_proyecto>AREAS TERMINADAS</d:caracteristicas_proyecto>
+    <d:estrato>3</d:estrato>
+    <d:clase_de_vivienda>VIS</d:clase_de_vivienda>
+    <d:aplica_subsidio>SI</d:aplica_subsidio>
+    <d:fechade_entrega>30 de Agosto 2013</d:fechade_entrega>
+    <d:estadoobra>CONSTRUCCION</d:estadoobra>
+  </m:properties></content></entry>
+ </feed>

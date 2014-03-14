@@ -1,0 +1,257 @@
+@import 'styl/font.styl'
+@import 'styl/normalize.styl'
+@import 'styl/header.styl'
+@import 'styl/footer.styl'
+.gmnoprint
+    -webkit-transform: translate3d(0,0,0)
+
+.icon_bienvenido
+    text-align center
+    padding 10px 0 0 0
+
+    img
+        vertical-align middle
+
+    label
+        margin-left: 10px;
+        color: #444;
+        font-style: italic;
+        font-size: 20px;
+
+.input_ch
+    padding 10px 0
+    font-size 16px
+    color #666
+
+    label
+        display block
+
+.btns-center
+    margin-top: 10px;
+    padding-bottom: 10px;
+
+#map-canvas
+    height 100%
+    z-index 0
+    position relative
+
+    .info-window-min
+        .info-window
+            max-width: 200px;
+            padding 0
+            text-align center
+
+        h2
+            font-size 14px
+            line-height 14px
+        h1
+            font-size 16px
+            line-height 18px
+        h3
+            font-size 14px
+            line-height 14px
+        .info1, .btns
+            display none
+
+
+.info-window
+    padding: 20px;
+    max-width: 250px;
+
+    h2
+        font-weight: normal;
+        margin: 0;
+        font-size: 15px;
+        color: #00a5e5;
+
+    h1
+        font-weight: bold;
+        margin: 0;
+        font-size: 20px;
+        color: #00a5e5;
+        margin-bottom: 10px;
+
+    h3
+        font-weight: normal;
+        margin: 0;
+        font-size: 16px;
+        color: #666;
+        margin-bottom: 10px;
+
+    div.info1
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 5px;
+
+        span
+            font-weight: bold;
+
+    div.btns
+        text-align: center;
+        padding: 5px 0;
+
+        .boton
+            margin: 0 10px;
+
+#filtro,
+#window_puntuacion
+    .ui-content
+        padding 20px
+
+#message-txt
+    visibility hidden
+    display block
+    font-size 16px
+    line-height 16px
+    color #666
+    left 0
+    bottom 0
+    position absolute
+    z-index 50
+    background #fff
+    padding 10px
+
+.message-window
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    z-index: 50;
+    background: #fff;
+    padding: 10px 20px;
+    text-align: left;
+    border 1px solid #ccc
+
+    >div
+        position relative
+
+    label
+        display block
+        font-size 16px
+        line-height 30px
+        height 30px
+        padding-bottom 10px
+        color #666
+
+    select
+        background: #fefefe;
+        border 1px solid #aaa
+        font-size 16px
+        line-height 16px
+        padding 5px 10px
+        text-align: center;
+        width 100%
+        -webkit-box-sizing border-box
+        -moz-box-sizing border-box
+        box-sizing border-box
+
+.my_pos, .see-list
+    -webkit-transform: translate3d(0,0,0)
+    position absolute
+    display block
+    top 13px
+    right 20px
+    background: #1a3c8f;
+    padding: 10px;
+    border 1px solid #12317f
+    border-radius 2px
+    font-size 14px
+    cursor pointer
+    text-align center
+    z-index 40
+
+    img
+        height 20px
+
+.my_pos:hover, .my_pos:active, .see-list:hover, .see-list:active
+    background #1a4990
+
+.see-list
+    top 75px
+
+.btn-city
+    -webkit-transform: translate3d(0,0,0)
+    position absolute
+    display block
+    top 65px
+    right 10px
+    z-index 40
+
+    >div
+        position relative
+
+    button
+        background: #1a3c8f;
+        padding: 10px;
+        border 1px solid #12317f
+        border-radius 2px
+        font-size 14px
+        cursor pointer
+        text-align center
+        position relative
+        z-index 10
+
+        img
+            height 20px
+
+    button:hover, button:active
+        background #1a4990
+
+.city-content
+    -webkit-transform: translate3d(0,0,0)
+    position absolute
+    opacity 1
+    top 15px
+    z-index 12
+    right 80px
+    left 20px
+
+#sel_city
+    -webkit-transform: translate3d(0,0,0)
+    opacity 1
+    padding 10px 15px
+    width 100%
+    height 45px
+    -webkit-box-sizing border-box
+    -moz-box-sizing border-box
+    box-sizing border-box
+
+
+.centered
+    bottom 40%
+    padding 30px 20px
+
+    .my_pos
+        display none
+
+    select
+        font-size 20px
+        line-height 20px
+
+
+#lista-mapas
+    bottom: 20px
+    position: absolute
+    margin: 10% 3.5% 15px
+    overflow hidden
+
+    .ui-content
+        max-height 90%
+        overflow  auto
+
+    ul
+        list-style none
+
+    .info-window
+        max-width none
+        background #eee
+        border-bottom 1px solid #ccc
+
+    .no-lista
+        font-size: 25px;
+        line-height: 33px;
+        text-align: center;
+        width: 80%;
+        margin: 30% auto 0 auto;
+        font-style: italic;
+        color: #888;

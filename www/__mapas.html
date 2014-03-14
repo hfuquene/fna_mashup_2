@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+	<title>Mapas</title>
+	<link rel="stylesheet" type="text/css" href="css/mapas.css">
+
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.9&sensor=true"></script>
+	<script type="text/javascript" src="js/lib/jquery.js"></script>
+	<script type="text/javascript" src="js/lib/touchscroll.js"></script>
+
+	<script type="text/javascript" src="cordova.js"></script>
+
+<!--
+	<script type="text/javascript" src="js/debug.js"></script>
+ -->
+	<script type="text/javascript" src="js/scripts/general.js"></script>
+    <script type="text/javascript" src="js/scripts/mapas.js"></script>
+    <script type="text/javascript" src="js/scripts/ciudades.js"></script>
+
+</head>
+<body page="mapas" required-internet="1">
+	<div class="header">
+		<a href="index.html" class="btn-left">Inicio</a>
+		<h1 role="heading" aria-level="1">FNA Más Cerca</h1>
+		<a href="javascript: MapaWindow.filtro('show')" class="btn-right">Filtro</a>
+		<a href="javascript: Contenido.lista_mostrar()" class="btn-right">Lista</a>
+	</div>
+
+
+
+	<div class="wrapper">
+		<div id="map-canvas"></div>
+		<div class="city-content">
+			<select onchange="cambio_ciudad()" id="sel_city"></select>
+		</div>
+		<button class="my_pos" onclick="Contenido.cargar_mi_posicion()">
+				<img src="img/icon_my_ubication.png" alt="Mi posición">
+			</button>
+<!--
+		<button class="see-list" onclick="Contenido.lista_mostrar()">
+			<img src="img/icon_list.png" alt="Ver lista">
+		</button> -->
+
+		<!-- <div class="btn-city">
+			<div>
+				<button class="btn">
+					<img src="img/icon_city.png" alt="Ciudad">
+				</button>
+			</div>
+		</div> -->
+
+
+		<label id="message-txt"></label>
+
+		<!--
+		<div id="message-window-mapa" class="message-window">
+			<div>
+			</div>
+		</div>
+		-->
+	</div>
+
+
+
+
+	<div class="footer">
+		<div>
+			<a href="__mapas.html" id="flink-puntos" class="ui-link">
+				<span></span>
+			</a>
+			<a href="__portafolio.html" id="flink-portafolio" class="ui-link">
+				<span></span>
+			</a>
+			<a href="__asesoria.html" id="flink-asesoria" class="ui-link">
+				<span></span>
+			</a>
+			<a href="__finanzas.html" id="flink-finanzas" class="external ui-link" >
+				<span></span>
+			</a>
+			<a href="educacion.html" id="flink-educacion" class="ui-link" >
+				<span></span>
+			</a>
+			</a>
+			<a href="vivienda.html" id="flink-vivienda" class="ui-link" >
+				<span></span>
+			</a>
+		</div>
+	</div>
+
+
+
+
+	<div id="window_filtro" class="window" >
+		<div class="window-container">
+		<div id="filtro">
+
+			<div class="superior">
+				<h1 class="ui-header ui-title">Filtre el mapa</h1>
+				<a href="javascript: MapaWindow.filtro_listo()" class="btn-right">Listo</a>
+			</div>
+
+			<div class="ui-content ui-body-b">
+
+				<!--
+					recaudo y puntos de atención
+				-->
+				<div class="input_checkbox">
+					<label for="ptos_recaudo">Puntos de recaudo</label>
+					<input id="ptos_recaudo" type="checkbox">
+				</div>
+
+				<div class="input_checkbox">
+					<label for="ptos_atencion">Centros de atención</label>
+					<input id="ptos_atencion" type="checkbox">
+				</div>
+
+				<div class="input_checkbox">
+					<label for="con_h_extendido">Con horario extendido</label>
+					<input id="con_h_extendido" type="checkbox">
+				</div>
+
+				<div class="input_checkbox">
+					<label for="sin_h_extendido">Sin horario extendido</label>
+					<input id="sin_h_extendido" type="checkbox">
+				</div>
+
+				<div class="input_checkbox">
+					<label for="con_costo">Transacción con costo</label>
+					<input id="con_costo" type="checkbox">
+				</div>
+
+				<div class="input_checkbox">
+					<label for="sin_costo">Transacción gratuita</label>
+					<input id="sin_costo" type="checkbox">
+				</div>
+
+			</div>
+		</div>
+	</div>
+	</div>
+
+
+
+
+    <div id="window_bienvenido" class="window" >
+        <div class="window-container">
+            <div id="filtro">
+
+                <div class="superior">
+                    <h1 class="ui-header ui-title">Un dato importante</h1>
+                </div>
+
+                <div class="ui-content ui-body-b">
+                    <div class="icon_bienvenido">
+                        <img src="img/pines/fna_sincosto.png" alt="">
+                        <label>Son puntos de atención</label>
+                    </div>
+
+                    <div class="icon_bienvenido">
+                        <img src="img/pines/recaudo_concosto.png" alt="">
+                        <label>Son puntos de recaudo</label>
+                    </div>
+
+                    <div class="input_ch">
+                        <label>
+                            <input type="checkbox" id="skip_bienvenido" > No volver a mostrar
+                        </label>
+                    </div>
+                    <div class="btns-center">
+                        <button onclick="Contenido.bienvenido('hide')" class="btn-blue">Entendido</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+	<div id="window_lista" class="window" >
+		<div class="window-container">
+			<div id="lista-mapas">
+
+				<div class="superior">
+					<h1 class="ui-header ui-title">Lista de puntos</h1>
+					<a href="javascript: Contenido.lista_ocultar()" class="btn-right">Cerrar</a>
+				</div>
+
+				<div id="lista-mapas-content" class="ui-content ui-body-b">
+					<ul class="lista-mapa-items"></ul>
+					<div class="no-lista no-lista-sinpuntos">
+						No hay puntos de recaudo o atención del FNA que mostrar.
+					</div>
+					<div class="no-lista no-lista-sinciudad">
+                        Asegúrese de seleccionar un municipio para visualizar sus puntos de atención y recaudo FNA.
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<div id="window_punto_detalle" class="window" >
+		<div class="window-container">
+			<div>
+				<div class="superior">
+					<h1 class="ui-header ui-title">Detalles del punto</h1>
+					<a href="javascript: MapaObjeto.ocultar_detalles()" class="btn-right">Cerrar</a>
+				</div>
+
+				<div  class="ui-content ui-body-b">
+					<div id="detail-map-content">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+	<div id="window_puntuacion" class="window" >
+		<div class="window-container">
+		<div id="puntuacion">
+
+			<div class="superior">
+				<a href="javascript: MapaObjeto.ocultar_puntuacion()" class="btn-left">Cancelar</a>
+				<h1 class="ui-header ui-title">Opinión</h1>
+				<a href="javascript: MapaObjeto.enviar_puntuacion()" class="btn-right">Enviar</a>
+			</div>
+
+			<div class="ui-content ui-body-b">
+				<p>
+					Califique un punto de atención o recaudo, según su experiencia con nosotros.
+				</p>
+
+				<div class="input_text">
+					<label for="input-puntos">Calificación:</label>
+					<select id="input-puntos">
+					  <option value="">-- Seleccione uno --</option>
+					  <option value="5">Excelente</option>
+					  <option value="4">Muy bueno</option>
+					  <option value="3">Bueno</option>
+					  <option value="2">Regular</option>
+					  <option value="1">Malo</option>
+					</select>
+				</div>
+
+				<div class="input_text">
+					<label for="input-tipo">Lo que califica:</label>
+					<select id="input-tipo">
+					  <option value="">-- Seleccione uno --</option>
+					  <option value="servi">Servicio</option>
+					  <option value="insta">Instalaciones</option>
+					  <option value="otro">Otro</option>
+					</select>
+				</div>
+
+				<div class="input_text">
+					<label for="input-opinion">Un comentario adicional:</label>
+					<textarea id="input-opinion" rows="3" maxlength="140" placeholder="Escribe tu opinión"></textarea>
+					<div class="line"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+
+
+
+
+	<div id="loading" class="ui-loader ui-corner-all ui-body-a ui-loader-verbose">
+		<span class="ui-icon ui-icon-loading"></span>
+		<h1> -- </h1>
+	</div>
+
+
+	<script type="text/javascript" >
+		app.initialize()
+		touchScroll('lista-mapas-content');
+	</script>
+</body>
+</html>

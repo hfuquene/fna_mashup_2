@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>jQuery Mobile: Theme Download</title>
+		<link rel="stylesheet" href="themes/fnatheme.min.css" />
+		<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+		<link rel="stylesheet" href="themes/jquery.mobile.structure-1.4.0.min.css" />
+        
+        
+        <link rel='stylesheet' href='slides/css/vendor/normalize.css'>
+	    <link rel='stylesheet' href='slides/css/vendor/fontello.css'>
+	    <link rel='stylesheet' href='slides/css/style.css'>
+        
+        <script type="text/javascript" src="cordova.js"></script>
+        
+        <script type="text/javascript">
+        $(document).live("pagechange",function(){
+            var page = $.mobile.activePage.attr("id");
+        });
+        document.addEventListener("deviceready", function () {
+            document.addEventListener("menubutton", menuKeyDown, true);
+        }, false);
+        function menuKeyDown() {
+                alert('Menu button pressed.');
+            }
+    </script>
+        
+		<script src="themes/jquery-1.10.2.min.js"></script>
+		<script src="themes/jquery.mobile-1.4.0.min.js"></script>
+        
+         <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,100,200,700,500' rel='stylesheet' type='text/css'>
+         
+<script type="text/javascript" charset="utf-8">
+            function onLoad()
+            {
+                  document.addEventListener("deviceready", onDeviceReady, true);
+            }
+
+            function exitFromApp()
+             {
+                navigator.app.exitApp();
+             }
+</script>
+
+
+</head>
+<body>
+
+
+<div data-role="page" data-dialog="true">
+
+		<div data-role="header"  bgcolor="#333333">
+    <h1 class="fuente1"><strong>Cerrar FNA V&E </strong></h1>
+    </div>    
+    <div role="main" class="ui-content">
+    <p style="padding-left:10px; padding-right:10px">
+    ¿Estas seguro que deseas cerrar la aplicación?
+    </p>
+        <div align="center">
+        <a href="#" onclick="exitFromApp()"class="ui-btn ui-btn-inline ui-btn-c">Cerrar</a>
+        <a href="#" class="ui-btn ui-btn-inline ui-btn-c" data-rel="back">Cancelar</a>
+        </div>
+    </div>
+	</div>
+
+</body>
+</html>

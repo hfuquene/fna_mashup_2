@@ -1,0 +1,141 @@
+<!DOCTYPE html> 
+<html>
+<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>jQuery Mobile: Theme Download</title>
+		<link rel="stylesheet" href="themes/fnatheme.min.css" />
+		<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+		<link rel="stylesheet" href="themes/jquery.mobile.structure-1.4.0.min.css" />
+        
+        
+        <link rel='stylesheet' href='slides/css/vendor/normalize.css'>
+	    <link rel='stylesheet' href='slides/css/vendor/fontello.css'>
+	    <link rel='stylesheet' href='slides/css/style.css'>
+        
+        <script type="text/javascript" src="cordova.js"></script>
+        
+		<script src="themes/jquery-1.10.2.min.js"></script>
+        
+		<script language="JavaScript" type="text/javascript" src="js/xpath.js"></script>
+		<script language="JavaScript" type="text/javascript" src="js/SpryData.js"></script>
+		<script language="javascript" type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+        <script language="javascript" type="text/javascript" src="js/funciones.js"></script>
+        <script language="JavaScript" type="text/javascript">
+
+<!--
+var id = localStorage.getItem("project_id");
+var idPV = localStorage.getItem("project_idPV");
+<!--alert(idPV);-->
+var idLAT = localStorage.getItem("project_idLAT");
+<!--alert(idLAT);-->
+var idLON = localStorage.getItem("project_idLON");
+<!--alert(idLON);-->
+
+var ds1 = new Spry.Data.XMLDataSet("js/bdfnaviviendafinal.xml", "feed/entry/content/m:properties[d:RowKey = '"+idPV+"']");
+//-->
+<!--http://servicedatosabiertoscolombia.cloudapp.net/v1/Fondo_Nacional_Ahorro/bdfnaviviendafinal?$format=xml-->
+
+</script>
+        
+         <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,100,200,700,500' rel='stylesheet' type='text/css'>
+         
+
+	</head>
+<body> 
+
+<div data-role="page" id="page">
+	<div data-role="header" data-position="fixed">
+    <a href="#nav-panel" class="ui-nodisc-icon ui-btn ui-icon-bars ui-btn-icon-notext" style=" background:#36A1CE; border:none;">Menu</a>
+		<h4>FNA V&E </h4>
+    <a href="index.html" data-ajax="false" class="ui-btn ui-nodisc-icon ui-icon-carat-l ui-btn-icon-left ui-btn-c" style="background:#36A1CE; border:none; color:#FFF">Inicio</a>
+	</div>
+    
+<div data-role="content">	
+    
+   
+      <div style="padding-left:20px; padding-right:20px; padding-top:20px">
+ 
+</div>  
+   
+   
+<div style="padding-left:20px; padding-right:20px; padding-top:20px">   
+   
+   <div class="pricing-table radius bluegreen" align="center" style="box-shadow:#666">
+   
+   <div style="padding-top:20px"><img src="img/logo.png" width="116" height="116"></br></div>
+   
+   <h3 class="fuente1" style="padding:20px"> Punto Atención Principal Calle 12 No 65-11</br> Puente Aranda Bogotá DC - Colombia</br> Atención de Lunes a Viernes</br> 7:30 am a 4:30 pm </h3>
+   
+   <h3 class="fuente1">Bogotá (57 + 1) 307 70 70</br><strong>Línea Gratuita Nacional</strong></br> 01 8000 52 7070 </h3>
+   
+   <h2 class="fuente1" style="word-wrap: break-word"><a href="" onclick="openLinkInBrowser('http://www.fna.gov.co')" target="_blank">www.fna.gov.co</a></h2>
+   
+   </div>
+   
+</div>
+ 
+   
+
+    
+     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCpYpkxGMeJcDfwD5QJMhBZT0No7Jleg-E&amp;sensor=false"></script>
+    
+    
+    
+                
+    </div>
+        
+        
+        <div data-role="panel" data-display="push" data-theme="b" id="nav-panel">
+        
+        <div id="sidemenu">
+                        <div id="author-profile">
+                            <div class="author-profile-photo">
+                                <img src="assets/authorProfile.jpg" alt="">
+                            </div>
+                            <div class="author-profile-content">
+                                <p class="title">FNA</p>
+                                <p class="subtitle">Vivienda y Educación</p>
+                            </div>
+                        </div>
+         </div></br>
+         
+            <ul data-role="listview">        
+              <li><a href="index.html" data-ajax="false"><n class="fuente1">Inicio</n></a></li>
+              <li><a href="educacion.html" data-ajax="false"><n class="fuente1">Educación</n></a></li>
+              <li><a href="vivienda.html" data-ajax="false"><n class="fuente1">Vivienda</n></a></li>
+              <li><a href="contacto.html" data-ajax="false"><n class="fuente1">Contacto</n></a></li>
+              <li><a href="sobre.html" data-ajax="false"><n class="fuente1">Sobre FNA V&E </n></a></li>
+              <li><a href="cerrar.html" data-transition="pop" data-ajax="false" onclick="exitFromApp"><n class="fuente1">Salir</n></a></li>        
+            </ul></br>
+            
+            <p class"social" align="center">
+        
+    <script>
+    function openLinkInBrowser(url){
+    if (navigator!=undefined && navigator.app!=undefined && navigator.app.loadUrl !=undefined) {
+        navigator.app.loadUrl( url,  { openExternal: true });  
+    } else {
+        window.open(url, "_system");
+    }
+    
+}
+    </script>
+           <a class"afuera" onclick="openLinkInBrowser('https://twitter.com/intent/tweet?text=@FNAahorro')"><img src="themes/images/icontwet.png" width="50" height="50" /></a>
+           <a onclick="openLinkInBrowser('https://www.facebook.com/sharer/sharer.php?u=http://fna.gov.co')"><img src="themes/images/iconface.png" width="50" height="50" /></a>
+           <a onclick="openLinkInBrowser('http://www.youtube.com/user/fnaahorro')"><img src="themes/images/iconyout.png" width="50" height="50" /></a>
+        </p>
+    </div><!-- /panel -->
+</div>
+
+
+ <script>!window.jQuery && document.write('<script src="slides/js/vendor/jquery.js"><\/script>')</script>
+        
+        <script src='slides/js/plugins/hammer.js'></script>
+<script src='slides/js/plugins/flexslider.js'></script>
+<script src='slides/js/script.js'></script>
+
+
+
+</body>
+</html>

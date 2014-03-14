@@ -1,0 +1,156 @@
+@import 'styl/font.styl'
+@import 'styl/normalize.styl'
+@import 'styl/header.styl'
+@import 'styl/footer.styl'
+
+#inicio
+    bottom 0
+
+    .imagen_inicio
+        width: 100%;
+        position: relative;
+        z-index: 10;
+
+    .contenedor-inicio
+        position: relative;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height:  100%;
+        overflow: hidden;
+
+
+    .navegacion
+        position:  absolute;
+        bottom: 0;
+        height: 50%;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        z-index: 12;
+
+        a:hover,
+        a:active
+            background: #1A4990;
+            -webkit-tap-highlight-color: rgba(255, 255, 255, 0)
+
+        a
+            display: block;
+            -webkit-tap-highlight-color: rgba(255, 255, 255, 0)
+            width: 50%;
+            height: 50%;
+            background: #1A3C8F;
+            color: #efefef;
+            border: 1px solid #12317F;
+            font-size: 14px;
+            line-height: 16px;
+            text-align: center;
+            float: left;
+            position: relative;
+            text-decoration: none;
+            text-shadow: none;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+
+            label
+                position absolute
+                display block
+                top 50%
+                left 50%
+
+                width 100px
+                margin-left -50px
+                
+                height 80px
+                margin-top -40px
+
+            .span-icon
+                width: 50px;
+                height: 50px;
+                margin: 0 auto
+                background: transparent url('../img/sprite.png') no-repeat 0 0;
+                display:  block;
+
+            .span-label
+                margin: 0 auto;
+                font-size: 17px;
+                line-height: 18px;
+                font-weight: normal;
+                font-style: italic
+                display:  block;
+                padding-top: 5px;
+                text-align center
+
+        #link-puntos .span-icon
+            background-position: 0 -30px;
+            width: 22px;
+            height: 34px;
+
+        #link-portafolio .span-icon
+            background-position: -21px -31px;
+            width: 29px;
+            height: 28px;
+            margin-bottom 6px
+
+        #link-asesoria .span-icon
+            background-position: -50px -32px;
+            width: 35px;
+            height: 28px;
+            margin-bottom 6px
+
+        #link-finanzas .span-icon
+            background-position: -85px -32px;
+            width: 26px;
+            height: 34px;
+
+.no-internet
+    #inicio
+        .navegacion
+            a.link-internet:hover,
+            a.link-internet:active
+                background: #526C94;
+
+            a.link-internet
+                background: #526C94;
+                border: 1px solid #436292;
+
+
+#acerca
+
+    .ui-content
+        text-align: center;
+
+    .ui-content p
+        margin: 0;
+        padding: 0;
+
+    img
+        vertical-align: middle;
+
+    
+
+    .ui-content p.subtitulo
+        padding-top: 15px;
+
+    .ui-content p.desarrollado
+        padding-top: 20px;
+
+    .ui-content p.claro
+        color: #666;
+        padding-bottom: 40px;
+        padding-top: 5px;
+
+    .engenial
+        margin: 10px 0 20px;
+
+    small
+        color: #AAAAAA;
+        
+    .subtitulo, .subtitulov
+        color: #222222;
+        font-weight: 400;
+        text-shadow: 0 1px 0 #FFFFFF;
+
+    
+        

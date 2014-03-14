@@ -1,0 +1,378 @@
+<!DOCTYPE html> 
+<html>
+<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>jQuery Mobile: Theme Download</title>
+		<link rel="stylesheet" href="themes/fnatheme.min.css" />
+		<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+		<link rel="stylesheet" href="themes/jquery.mobile.structure-1.4.0.min.css" />
+        
+
+        <link rel='stylesheet' href='slides/css/vendor/normalize.css'>
+	    <link rel='stylesheet' href='slides/css/vendor/fontello.css'>
+	    <link rel='stylesheet' href='slides/css/style.css'>
+        <link rel="stylesheet" type="text/css" href="css/finanzas.css">       
+        <script type="text/javascript" src="cordova.js"></script>
+                
+		<script src="themes/jquery-1.10.2.min.js"></script>
+		<script type="text/javascript" src="js/scripts/general.js"></script>
+        
+		<script language="JavaScript" type="text/javascript" src="js/xpath.js"></script>
+		<script language="JavaScript" type="text/javascript" src="js/SpryData.js"></script>
+		<script language="javascript" type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+        <script language="javascript" type="text/javascript" src="js/funciones.js"></script>
+        <script language="JavaScript" type="text/javascript">
+
+<!--
+var id = localStorage.getItem("project_id");
+var idPV = localStorage.getItem("project_idPV");
+<!--alert(idPV);-->
+var idLAT = localStorage.getItem("project_idLAT");
+<!--alert(idLAT);-->
+var idLON = localStorage.getItem("project_idLON");
+<!--alert(idLON);-->
+
+var ds1 = new Spry.Data.XMLDataSet("http://servicedatosabiertoscolombia.cloudapp.net/v1/Fondo_Nacional_Ahorro/bdfnaviviendafinal?$format=xml", "feed/entry/content/m:properties[d:RowKey = '"+idPV+"']");
+//-->
+<!--http://servicedatosabiertoscolombia.cloudapp.net/v1/Fondo_Nacional_Ahorro/bdfnaviviendafinal?$format=xml o js/bdfnaviviendafinal.xml-->
+
+</script>
+        
+         <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,100,200,700,500' rel='stylesheet' type='text/css'>
+         
+         
+ <script type="text/javascript">
+$(document).ready(function() {   
+    setTimeout(function() {
+        $(".cargaocultar").fadeIn(1100);
+    },1500);
+});
+</script>
+
+   
+     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCpYpkxGMeJcDfwD5QJMhBZT0No7Jleg-E&amp;sensor=false"></script>
+
+    
+    <script type="text/javascript"> 
+	
+	var streetViewService = new google.maps.StreetViewService();
+var STREETVIEW_MAX_DISTANCE = 100;
+var latLng = new google.maps.LatLng(idLAT, idLON);
+streetViewService.getPanoramaByLocation(latLng, STREETVIEW_MAX_DISTANCE, 
+
+function (streetViewPanoramaData, status) 
+
+{
+    if (status === google.maps.StreetViewStatus.OK) {				
+				//alert('Este proyecto posee Stret View'); 		
+    } else {
+        // no street view available in this range, or some error occurred
+		$("#ocultarboton").hide();
+				//alert('Este poryecto no posee Street View');
+    }
+});	
+
+
+    </script> 
+    
+    <script type="text/javascript">
+    /**
+     * Funcion que devuelve un numero separando los separadores de miles
+     * Puede recibir valores negativos y con decimales
+     */
+    function numberFormat(numero){ 
+        // Variable que contendra el resultado final
+        var resultado = "";
+        
+        // Si el numero empieza por el valor "-" (numero negativo)
+        if(numero[0]=="-")
+        {
+            // Cogemos el numero eliminando los posibles puntos que tenga, y sin
+            // el signo negativo
+            nuevoNumero=numero.replace(/\./g,'').substring(1);
+        }else{
+            // Cogemos el numero eliminando los posibles puntos que tenga
+            nuevoNumero=numero.replace(/\./g,'');
+        }
+        
+        // Si tiene decimales, se los quitamos al numero
+        if(numero.indexOf(",")>=0)
+            nuevoNumero=nuevoNumero.substring(0,nuevoNumero.indexOf(","));
+
+        // Ponemos un punto cada 3 caracteres
+        for (var j, i = nuevoNumero.length - 1, j = 0; i >= 0; i--, j++) 
+            resultado = nuevoNumero.charAt(i) + ((j > 0) && (j % 3 == 0)? ".": "") + resultado; 
+        
+        // Si tiene decimales, se lo añadimos al numero una vez forateado con 
+        // los separadores de miles
+        if(numero.indexOf(",")>=0)
+            resultado+=numero.substring(numero.indexOf(","));
+
+        if(numero[0]=="-")
+        {
+            // Devolvemos el valor añadiendo al inicio el signo negativo
+            return "-"+resultado;
+        }else{
+            return resultado;
+        }
+    }
+	
+	
+</script>	
+         
+	</head>
+<body> 
+
+<div data-role="page" id="page">
+		<div class="header">
+			<a href="index.html" class="btn-left">Inicio</a>
+			<h1 role="heading" aria-level="1">Vivienda</h1>
+			<a href="javascript: Funciones.compartir('show')" class="btn-right tap-compartir">Compartir</a>
+		</div>
+
+    
+    
+		<div data-role="content">	
+		<p>&nbsp;</p>
+
+				
+
+	<div spry:region="ds1"> 
+
+		<div spry:state="loading" align="center"></br>
+                    <img src="themes/images/loading.gif">
+                   	<h3 class="fuente1">Cargando Proyecto...</h3>
+                                    <div class="cargaocultar" style="height:1000px"> </div>
+		</div>
+		<div spry:state="error" align="center">
+                <h3 class="fuente1">No se obtuvieron datos, comprueba tu conexión a internet.</h3>
+		</div>
+     
+
+		<div spry:state="ready">
+        		<div style="padding:20px">
+                       <h1 class="fuente1">{ds1::d:nombreproyecto}</h1>
+                       </div>
+                       
+					
+         </div>
+         
+	</div>
+    
+    <div class="flexslider-container">
+                            <figure class="flexslider">
+                                <ul class="slides">
+                        			<li spry:region="ds1">
+                                        <img src="imagenes/1.jpg"/>
+                                    </li>
+                              <li spry:region="ds1">
+                                        <img src="imagenes/2.jpg"/>
+                              </li>
+                              <li spry:region="ds1">
+                                        <img src="imagenes/3.jpg"/>
+                              </li>
+                              <li spry:region="ds1">
+                                        <img src="imagenes/1.jpg"/>
+                              </li>
+                              <li spry:region="ds1">
+                                        <img src="imagenes/2.jpg"/>
+                              </li>
+							</ul>
+                            </figure>
+         				 <div class="flexslider-controls"></div>
+					</div>
+    
+              
+  
+<div style="padding-left:20px; padding-right:20px">
+
+    <div spry:region="ds1">  
+     <div spry:state="loading" align="center"> </div>
+            <div spry:state="error" align="center"> 
+            </div>
+                 <div spry:state="ready">
+                          
+                      
+          <div class="wrapped-content">
+    
+                            <h2 class="fuente1">Especificaciones</h2>
+    
+                            <ul class="pricing-table radius green">
+                                
+                                <li class="title">DIRECCIÓN: {ds1::d:direccionproyecto}</br> 
+                                BARRIO: {ds1::d:barrio}</br>
+                              {ds1::d:ciudad} - {ds1::d:departamento}</li>
+                                
+                                <li class="price"><n id="desde"> </n><br> 
+                                <small>hasta</small>
+                                </p><n id="hasta"> </n>
+                                
+                                <h3 class="fuente1" id="myDiv"> </h3>
+                            
+							<script type="text/javascript">
+							var elem1 = document.getElementById('desde');
+							elem1.innerHTML = ("$"+numberFormat("{d:preciodesde}"));
+							
+							var elem2 = document.getElementById('hasta');
+							elem2.innerHTML = ("$"+numberFormat("{d:preciohasta}"));
+							</script>
+                            
+                                </li>
+                                
+                    
+                                <li class="bullet-item">
+                                <h2 class="fuente1"><strong>AREA</strong></h2>
+                                <h2 class="fuente1">Desde <strong>{ds1::d:areadesde} m2</strong>
+                                  hasta <strong>{ds1::d:areahasta} m2</strong></h2>
+								<h3 class="fuente1">CONSTRUCTORA: {ds1::d:nombreconstructora}</h3></li>
+                                
+                               
+                                <li class="price">{ds1::d:tipode_inmueble_ofrecido}
+								<p>ESTADO: {ds1::d:estadoobra}</p>
+                              Estrato: {ds1::d:estrato}</li>
+                                
+                                <li class="bullet-item">
+                                  <p><h1 class="fuente1">Crédito FNA 80%</p>
+                                    <strong id="creditofna"></strong>*</h1>
+                                  <p><h1 class="fuente1">Cuota Inicial 20%</p>
+                                    <strong id="cuotainicial"></strong>*</h1>
+                                  <p><h1 class="fuente1">Cuota mensual (sin seguro)</p>
+                                    <strong id="cuotamensual"></strong>*</h1>
+                                  
+                                 
+                                 <script type="text/javascript">
+							var elem3 = document.getElementById('creditofna');
+							elem3.innerHTML = ("$"+numberFormat("{d:preciodesde}"));
+							
+							var elem4 = document.getElementById('cuotainicial');
+							elem4.innerHTML = ("$"+numberFormat("{d:cuotainicial}"));
+							
+							var elem4 = document.getElementById('cuotamensual');
+							elem4.innerHTML = ("$"+numberFormat("{d:cuotamensual}"));							
+							</script>   
+								
+                                 
+                                 
+                                 </li>
+                                    
+                                    <li class="bullet-item">* Estos valores son aproximados</li>
+                                    
+                                    <li class="price"><h4 class="fuente1">Fecha de Entrega: {ds1::d:fechade_entrega}</h4></li>
+                                    
+                                    <li class="bullet-item">
+                                <h2 class="fuente1"><strong>Contacto: {d:nombrecontactoconstructora} </strong></h2> 
+                                  <p style="font-size:18px" class="fuente1">Teléfono: {d:telefonocontacto_constructora}</p>
+                                  
+                                <h2 class="fuente1"><strong>Sala de Ventas: {d:direccionsala_deventas}</strong> </br> </br> Teléfonos: {d:telefono_fijo_sala_de_ventas} - {d:telefono_celular_sala_de_ventas}</h2>
+  	
+                                                                                                   <h2 class="fuente1">Atención de {d:diadeatencion_desde} a {d:diadeatencion_hasta}</h2>                            
+                                    <h2 class="fuente1">En horario de {d:horadeatencion_desde} a {d:horadeatencion_hasta}</h2>
+                                    
+                                    <h2 class="fuente1"><div id="email">e-mail: {d:email_constructora}</div></h2></li>
+ 
+                            </ul>
+                   </div>  </div>                
+    </div>
+    
+    </div>
+    
+   <div class="hero" id="map-container-api"></div> 
+
+   
+      <div style="padding-left:20px; padding-right:20px; padding-top:20px">
+  <button id="ocultarboton" class="ui-btn ui-btn-inline ui-btn-c" href="#" onclick="mostrarProyectoStreet('{d:RowKey}', '{d:latitud}', '{d:longitud}');return false;">Vista 360°</button>
+</div>  
+
+<div spry:region="ds1">  
+     <div spry:state="loading" align="center"> </div>
+            <div spry:state="error" align="center"></div>
+                 <div spry:state="ready">
+   
+   
+<div style="padding-left:20px; padding-right:20px; padding-top:20px">  
+   
+								<h2 class="fuente1">Recibe más información de este proyecto</h2>
+		        				
+                                <a href="mailto:{ds1::d:email_constructora}?subject=Informacion de Proyecto, Aplicación FNA&body=Cordial saludo, quisiera recibir más informacion del proyecto {ds1::d:nombreproyecto} ubicado en la ciudad de {ds1::d:ciudad} referente a..." class="ui-btn ui-btn-c" target="_blank">Solicitar más información</a> 
+                                 </div>
+ </div>
+ </div>
+ 
+   
+ 
+    
+                
+    </div>
+        
+        
+
+</div>
+</div>
+	<div class="footer">
+		<div>
+			<a href="__mapas.html" id="flink-puntos" class="ui-link">
+				<span></span>
+			</a>
+			<a href="__portafolio.html" id="flink-portafolio" class="ui-link">
+				<span></span>
+			</a>
+			<a href="__asesoria.html" id="flink-asesoria" class="ui-link">
+				<span></span>
+			</a>
+			<a href="__finanzas.html" id="flink-finanzas" class="external ui-link" >
+				<span></span>
+			</a>
+			</a>
+			<a href="educacion.html" id="flink-educacion" class="ui-link" >
+				<span></span>
+			</a>
+			</a>
+			<a href="vivienda.html" id="flink-vivienda" class="ui-link" >
+				<span></span>
+			</a>
+		</div>
+	</div>
+	<div id="window_compartir" class="window">
+		<div class="window-container">
+			<div id="compartir">
+				<div class="superior">
+					<h1 class="ui-header ui-title">FNA Social</h1>
+					<a href="javascript: Funciones.compartir('hide')" class="btn-right">Cerrar</a>
+				</div>
+				<div class="ui-content ui-body-b">
+					<div class="window-content">
+						<button class="btn-blue btn-block btn-google" onclick="openLinkInBrowser('https://plus.google.com/share?url=http://fna.gov.co');">
+							<img src="img/icon_google.png" alt="Google+"><span>Google+</span>
+						</button>
+		
+						<button class="btn-blue btn-block btn-facebook" onclick="openLinkInBrowser('https://www.facebook.com/sharer/sharer.php?u=http://fna.gov.co');">
+							<img src="img/icon_facebook.png" alt="Facebook"><span>Facebook</span>
+						</button>
+
+						<button class="btn-blue btn-block btn-twitter" onclick="openLinkInBrowser('https://twitter.com/intent/tweet?text=Visita%20fna.gov.co');">
+							<img src="img/icon_twitter.png" alt="Twitter"><span>Twitter</span>
+						</button>
+
+						<button class="btn-blue btn-block btn-linkedin" onclick="openLinkInBrowser('http://www.linkedin.com/shareArticle?mini=true&url=http://fna.gov.co');">
+							<img src="img/icon_linkedin.png" alt="Linkedin"><span>Linkedin</span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+ <script>!window.jQuery && document.write('<script src="slides/js/vendor/jquery.js"><\/script>')</script>
+        
+        <script src='slides/js/plugins/hammer.js'></script>
+<script src='slides/js/plugins/flexslider.js'></script>
+<script src='slides/js/script.js'></script>
+
+
+
+
+
+</body>
+</html>

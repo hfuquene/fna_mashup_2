@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height" />
+	<title>Asesoría</title>
+	<link rel="stylesheet" type="text/css" href="css/asesoria.css">
+
+	<script type="text/javascript" src="js/lib/jquery.js"></script>
+
+	<script type="text/javascript" src="cordova.js"></script>
+
+	<!--
+	<script type="text/javascript" src="js/debug.js"></script>
+ 	 -->
+	<script type="text/javascript" src="js/scripts/general.js"></script>
+	<script type="text/javascript" src="js/scripts/asesoria.js"></script>
+</head>
+
+<body page="asesoria" required-internet="1">
+	<div class="header">
+		<a href="index.html" class="btn-left">Inicio</a>
+
+		<h1 role="heading" aria-level="1">Asesoría</h1>
+
+		<a href="javascript: Funciones.compartir('show')" class="btn-right tap-compartir">Compartir</a>
+	</div>
+
+
+
+	<div class="wrapper_content">
+		<div id="form_info_personal">
+			<p>
+				Por favor llene este formulario para poder brindarle una asesoría personalizada.
+			</p>
+			<div class="input_text">
+				<label for="nombre">Nombres y apellidos:</label>
+				<input type="text" name="nombre" id="nombre" placeholder="Escríbalo aquí" maxlength="100" required>
+				<div class="line"></div>
+			</div>
+			<div class="input_text">
+				<label for="celular">Número de celular o fijo:</label>
+				<input type="number" name="celular" id="celular" maxlength="10" placeholder="Escríbalo aquí" required>
+				<div class="line"></div>
+			</div>
+			<div class="input_text">
+				<label for="direccion">Dirección:</label>
+				<input type="text" name="direccion" id="direccion" maxlength="200" placeholder="Escríbalo aquí" required>
+				<div class="line"></div>
+			</div>
+			<div class="input_text">
+				<label for="email">Correo electrónico:</label>
+				<input type="email" name="email" id="email" maxlength="150" placeholder="Escríbalo aquí" required>
+				<div class="line"></div>
+			</div>
+			<div class="btns-center">
+				<button onclick="limpiar_campos()" class="btn-limpiar btn-white">Limpiar</button>
+				<button onclick="solicitar_llamada()" class="btn-solicitar btn-blue">Solicitar asesoría</button>
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<div class="footer">
+		<div>
+			<a href="__mapas.html" id="flink-puntos" class="ui-link">
+				<span></span>
+			</a>
+			<a href="__portafolio.html" id="flink-portafolio" class="ui-link">
+				<span></span>
+			</a>
+			<a href="__asesoria.html" id="flink-asesoria" class="ui-link">
+				<span></span>
+			</a>
+			<a href="__finanzas.html" id="flink-finanzas" class="external ui-link" >
+				<span></span>
+			</a>
+			<a href="educacion.html" id="flink-educacion" class="ui-link" >
+				<span></span>
+			</a>
+			</a>
+			<a href="vivienda.html" id="flink-vivienda" class="ui-link" >
+				<span></span>
+			</a>	
+		</div>
+	</div>
+
+
+	<div id="window_compartir" class="window">
+		<div class="window-container">
+			<div id="compartir">
+				<div class="superior">
+					<h1 class="ui-header ui-title">FNA Social</h1>
+					<a href="javascript: Funciones.compartir('hide')" class="btn-right">Cerrar</a>
+				</div>
+				<div class="ui-content ui-body-b">
+					<div class="window-content">
+						<button class="btn-blue btn-block btn-google" onclick="openLinkInBrowser('https://plus.google.com/share?url=http://fna.gov.co');">
+							<img src="img/icon_google.png" alt="Google+"><span>Google+</span>
+						</button>
+
+						<button class="btn-blue btn-block btn-facebook" onclick="openLinkInBrowser('https://www.facebook.com/sharer/sharer.php?u=http://fna.gov.co');">
+							<img src="img/icon_facebook.png" alt="Facebook"><span>Facebook</span>
+						</button>
+
+						<button class="btn-blue btn-block btn-twitter" onclick="openLinkInBrowser('https://twitter.com/intent/tweet?text=Visita%20fna.gov.co');">
+							<img src="img/icon_twitter.png" alt="Twitter"><span>Twitter</span>
+						</button>
+
+						<button class="btn-blue btn-block btn-linkedin" onclick="openLinkInBrowser('http://www.linkedin.com/shareArticle?mini=true&url=http://fna.gov.co');">
+							<img src="img/icon_linkedin.png" alt="Linkedin"><span>Linkedin</span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div id="window_asesoria-exitosa" class="window">
+		<div class="window-container">
+		<div id="asesoria-exitosa">
+			<div class="superior">
+				<!--<a href="index.html" class="btn-left">Inicio</a>-->
+				<h1 class="ui-header ui-title">Solicitud exitosa</h1>
+				<!--<a href="javascript: asesoria_exitosa('hide')" class="btn-right">Cerrar</a>-->
+				<a href="index.html" class="btn-right">Cerrar</a>
+			</div>
+			<div class="ui-content ui-body-b">
+				<div class="ui-grid-solo">
+		              <div class="ui-block-a logo">
+		              	<img src="img/call-center.jpg">
+		              	<h2>¡Solicitud <br> enviada!</h2>
+		              </div>
+		            </div>
+		            <div class="ui-grid-solo">
+		              <div class="respuesta">
+		              	<h1>Gracias por utilizar la APP del FNA, en breve un consultor de la entidad se comunicará con usted.</h1>
+		              </div>
+		            </div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>
+
+
+
+
+
+	<div id="loading" class="ui-loader ui-corner-all ui-body-a ui-loader-verbose">
+		<span class="ui-icon ui-icon-loading"></span>
+		<h1> -- </h1>
+	</div>
+
+
+	<script type="text/javascript" >
+		app.initialize()
+
+        $("input").on('focus', function(){
+            $(".header").css({position:'absolute'})
+            //$(window).scrollTop(0)
+        })
+
+        $("input").on('blur', function(){
+            $(".header").css({position:'fixed'})
+        })
+	</script>
+</body>
+</html>
